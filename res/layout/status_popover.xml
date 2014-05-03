@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/item_space_mini" android:paddingRight="@dimen/item_space_mini" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/popover_rounded_edges" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/popover_author_button" android:background="@drawable/status_popover_author_button_background" android:padding="@dimen/item_space_mini" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <flipboard.gui.DownloadImageView android:layout_gravity="center" android:id="@id/popover_author_icon" android:background="@drawable/avatar_shadow" android:layout_width="@dimen/author_icon_size" android:layout_height="@dimen/author_icon_size" android:layout_marginRight="@dimen/item_space_mini" />
+            <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <flipboard.gui.FLLabelTextView android:textSize="@dimen/popover_text_large" android:textColor="@color/author_color" android:id="@id/popover_author_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/popover_author_name">
+                    <flipboard.gui.DownloadImageView android:layout_gravity="center" android:id="@id/popover_service_icon" android:layout_width="@dimen/service_icon_size" android:layout_height="@dimen/service_icon_size" android:layout_marginRight="@dimen/section_margin_horizontal" />
+                    <flipboard.gui.FLLabelTextView android:textSize="@dimen/popover_text_small" android:textColor="@color/text_lightgray" android:layout_gravity="center" android:id="@id/popover_author_handle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+            <ImageView android:layout_gravity="center" android:id="@id/popover_author_disclosure_arrow" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/disclosure_arrow" />
+        </LinearLayout>
+        <View android:id="@id/status_topborder" android:background="@color/lightgray_background" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/item_space_mini" android:layout_marginRight="@dimen/item_space_mini" />
+        <LinearLayout android:orientation="vertical" android:id="@id/popover_text_button" android:background="@drawable/status_popover_text_button_background" android:paddingLeft="@dimen/item_space_mini" android:paddingTop="@dimen/item_space" android:paddingRight="@dimen/item_space_mini" android:paddingBottom="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <flipboard.gui.FLTextView android:textSize="@dimen/popover_text_small" android:textColor="@color/status_color" android:id="@id/popover_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/item_space_mini" android:maxLines="5" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/popover_view_comments" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <flipboard.gui.FLLabelTextView android:textSize="@dimen/popover_text_small" android:textColor="@color/text_lightgray" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/author_popover_selection_title" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <flipboard.gui.actionbar.FLActionBar android:gravity="left" android:id="@id/action_bar" android:background="@drawable/status_popover_gray_footer_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/action_bar_height" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flipboard.gui.ContentDrawerView android:orientation="vertical" android:id="@id/fl_menu_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/account_header" android:background="@drawable/content_guide_gradient" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+        <flipboard.gui.DownloadImageView android:layout_gravity="center_vertical" android:id="@id/fl_avatar" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginRight="12.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <flipboard.gui.FLLabelTextView android:textSize="18.0dip" android:textColor="@color/text_white" android:id="@id/firstLine" android:layout_width="fill_parent" android:layout_height="wrap_content" flip:fontweight="medium" />
+            <flipboard.gui.FLLabelTextView android:textSize="14.0dip" android:textColor="#50ffffff" android:id="@id/secondLine" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <flipboard.gui.FLImageButton android:id="@id/compose_content_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="compose" style="@style/ContentDrawerCompose" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/content_drawer_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/account_header">
+        <LinearLayout android:orientation="horizontal" android:id="@id/search" android:background="#ffd9d9d9" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <flipboard.gui.FLEditText android:textSize="@dimen/row_message_size" android:textColorHint="@color/lightgray" android:layout_gravity="center_vertical" android:id="@id/searchEditText" android:background="@drawable/search_field" android:paddingTop="5.0dip" android:paddingBottom="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:hint="@string/add_more_search_placeholder" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionSearch" />
+            <flipboard.gui.FLImageButton android:layout_gravity="center_vertical" android:id="@id/search_voice_button" android:background="@null" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/microphone" android:onClick="startVoiceRecognitionActivity" />
+            <flipboard.gui.FLButton android:layout_gravity="center_vertical" android:id="@id/search_cancel_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/cancel_button" style="@style/FLPaperButtonDefault" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/border2" android:background="#ffc3c3c3" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/empty_container" android:padding="@dimen/item_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+            <flipboard.gui.FLBusyView android:layout_gravity="center_vertical" android:id="@id/empty_spinner" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="@dimen/item_space" />
+            <flipboard.gui.FLTextView android:textSize="20.0dip" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/empty_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <flipboard.gui.EditableListView android:id="@id/menu_list_start" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@color/content_drawer_lines" android:dividerHeight="0.0dip" android:layout_weight="1.0" style="@style/ContentDrawerListView" />
+        <RelativeLayout android:id="@id/popular_searches" android:padding="@dimen/item_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <flipboard.gui.FLLabelTextView android:textSize="@dimen/popular_searches_text_size" android:textColor="@color/black" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/categories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/popular_searches_categories_margin_right" android:layout_below="@id/title" />
+            <LinearLayout android:orientation="vertical" android:id="@id/searches" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/categories" android:layout_below="@id/title" />
+        </RelativeLayout>
+    </LinearLayout>
+</flipboard.gui.ContentDrawerView>

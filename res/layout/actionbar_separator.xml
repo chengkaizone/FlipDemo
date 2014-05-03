@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/actionbar_separator" android:background="@color/separator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/item_space" android:layout_marginRight="@dimen/item_space"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/provenance_line" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/provenance_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/section_margin_horizontal" />
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/text_lightgray" android:layout_gravity="center" android:id="@id/provenance" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

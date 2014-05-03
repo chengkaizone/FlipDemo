@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:id="@id/service_prompt" android:background="@color/gray_dark" android:padding="@dimen/item_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" class="flipboard.gui.ServicePromptView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <flipboard.gui.DownloadImageView android:layout_gravity="center" android:id="@id/service_prompt_icon" android:layout_width="@dimen/row_icon_size" android:layout_height="@dimen/row_icon_size" android:layout_marginRight="@dimen/item_space" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/text_white" android:id="@id/service_prompt_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <flipboard.gui.FLTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/text_lightgray" android:id="@id/service_prompt_description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <flipboard.gui.FLButton android:id="@id/service_login_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_space_overflow" style="@style/FLPaperButtonDone" />
+    <flipboard.gui.FLTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/text_lightgray" android:id="@id/service_prompt_text1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_space_overflow" />
+    <flipboard.gui.FLTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/text_lightgray" android:id="@id/service_prompt_text2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_space" />
+</view>

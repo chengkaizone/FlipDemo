@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/status_author_line" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/author_color" android:layout_gravity="bottom" android:id="@id/status_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/section_margin_horizontal" flip:fontweight="bold" />
+    <include android:id="@id/service_icon" layout="@layout/service_icon" />
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/text_lightgray" android:layout_gravity="bottom" android:id="@id/status_age" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

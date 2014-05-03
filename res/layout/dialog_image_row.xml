@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="46.0dip" android:layout_height="50.0dip" android:layout_marginLeft="12.0dip">
+        <flipboard.gui.DownloadImageView android:layout_gravity="center_vertical" android:id="@id/dialog_row_downloadimage" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dialog_row_staticimage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <flipboard.gui.FLTextView android:textSize="@dimen/row_title_size" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/dialog_row_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.actionbar.FLActionBar android:id="@id/action_bar" android:background="@drawable/content_guide_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/header_title" android:textColor="@color/text_white" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" flip:fontweight="medium" style="@style/textShadowBlack" />
+    </flipboard.gui.actionbar.FLActionBar>
+    <ListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/content_drawer_lines" style="@style/ContentDrawerListView" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/empty_container" android:padding="@dimen/item_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <flipboard.gui.FLBusyView android:layout_gravity="center_vertical" android:id="@id/empty_spinner" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="@dimen/item_space" />
+        <flipboard.gui.FLTextView android:textSize="20.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

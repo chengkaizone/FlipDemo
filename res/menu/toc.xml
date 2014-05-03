@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/toc_settings" android:id="@id/toc_settings" android:title="@string/toc_settings_accessibility_label" />
+    <item android:icon="@drawable/menu_compose" android:id="@id/toc_compose" android:title="@string/compose_button_ax_title" />
+</menu>

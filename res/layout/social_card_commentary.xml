@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/social_card_commentary" android:paddingBottom="@dimen/social_card_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/social_card_text_size" android:textColor="@color/black" android:id="@id/social_card_commentary_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/social_card_margin_small" flip:fontweight="bold" />
+    <view android:id="@id/social_card_non_comments_middle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" class="flipboard.gui.AtomicFitListView" />
+    <LinearLayout android:orientation="vertical" android:id="@id/social_card_comments_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/social_card_text_size_small" android:textColor="@color/black" android:id="@id/social_card_commentary_who_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/social_card_margin_small" />
+</LinearLayout>

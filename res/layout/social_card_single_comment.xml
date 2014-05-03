@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="@dimen/social_card_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/social_card_comment_author_avatar" layout="@layout/avatar_tile" />
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/social_card_text_size" android:textColor="@color/black" android:id="@id/social_card_comment_author_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/social_card_margin_small" android:layout_toRightOf="@id/social_card_comment_author_avatar" android:layout_alignTop="@id/social_card_comment_author_avatar" flip:fontweight="bold" />
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/social_card_text_size" android:textColor="@color/text_lightgray" android:id="@id/social_card_comment_time_ago" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/social_card_margin_small" android:layout_toRightOf="@id/social_card_comment_author_text" android:layout_alignTop="@id/social_card_comment_author_text" />
+    <flipboard.gui.FLTextView android:textSize="@dimen/social_card_text_size" android:textColor="@color/black" android:id="@id/social_card_comment_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/social_card_comment_author_text" android:layout_alignLeft="@id/social_card_comment_author_text" />
+</RelativeLayout>

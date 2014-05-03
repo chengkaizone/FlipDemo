@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.actionbar.FLActionBar android:gravity="left" android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/action_bar_height" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/item_space">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/account" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include android:id="@id/compose_avatar" layout="@layout/avatar_tile" />
+                <flipboard.gui.FLLabelTextView android:textSize="18.0dip" android:id="@id/compose_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/compose_avatar" flip:fontweight="medium" />
+                <flipboard.gui.FLLabelTextView android:textSize="14.0dip" android:textColor="@color/text_lightgray" android:id="@id/compose_service_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/compose_username" android:layout_alignLeft="@id/compose_username" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/down_arrow" android:layout_toRightOf="@id/compose_username" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <flipboard.gui.FLBusyView android:layout_gravity="center" android:id="@id/busy" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="@dimen/item_space" />
+        <flipboard.gui.FLButton android:id="@id/compose_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/item_space" android:text="@string/send_button" android:onClick="send" style="@style/FLPaperButtonDone" />
+    </LinearLayout>
+    <flipboard.gui.FLEditText android:textColorHint="@color/lightgray" android:gravity="top" android:id="@id/compose_post" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" style="@style/FLInput" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/compose_bottom_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip">
+        <ImageView android:id="@id/compose_link_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/link" />
+        <ImageView android:id="@id/compose_link_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/link" />
+        <flipboard.gui.FLTextView android:textSize="16.0dip" android:textColor="@color/text_lightgray" android:ellipsize="end" android:id="@id/link_URL" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true" android:layout_weight="100.0" />
+        <flipboard.gui.FLBusyView android:id="@id/compose_link_busy" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+        <flipboard.gui.FLTextView android:textSize="16.0dip" android:textColor="@color/text_lightgray" android:gravity="right" android:id="@id/compose_chars_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" flip:fontweight="medium" style="@style/textShadowWhite" />
+    </LinearLayout>
+</LinearLayout>

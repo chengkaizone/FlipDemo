@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.FLStaticTextView android:textSize="@dimen/section_item_text_large" android:textStyle="bold" android:textColor="@color/title_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/item_space" android:maxLines="4" flip:fontweight="medium" />
+    <flipboard.gui.FLToggleImageButton android:id="@id/like_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/attribution_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/section_item_title_margin_vertical">
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/flipboard_red" android:layout_gravity="center" android:id="@id/post_item_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/item_space" flip:fontweight="bold" />
+        <flipboard.gui.DownloadImageView android:layout_gravity="center" android:id="@id/post_favicon" android:visibility="gone" android:layout_width="@dimen/small_icon_size" android:layout_height="@dimen/small_icon_size" android:layout_marginRight="@dimen/section_margin_horizontal" />
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/text_lightgray" android:layout_gravity="center" android:id="@id/post_site_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/item_space" />
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/text_lightgray" android:layout_gravity="center" android:id="@id/post_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

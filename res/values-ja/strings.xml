@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="asset_prefix">ja/</string>
+    <string name="asset_prefix_chinabuild">ja/</string>
+    <string name="cancel_button">キャンセル</string>
+    <string name="update_button">アップデート</string>
+    <string name="add_button">追加</string>
+    <string name="ok_button">ＯＫ</string>
+    <string name="share_button">共有</string>
+    <string name="close_button">閉じる</string>
+    <string name="reply_button">返信</string>
+    <string name="login_button">ログイン</string>
+    <string name="sign_up_button">登録</string>
+    <string name="edit_button">編集</string>
+    <string name="done_button">完了</string>
+    <string name="send_button">送信</string>
+    <string name="settings_button">設定</string>
+    <string name="open_button">開く</string>
+    <string name="copy_button">コピー</string>
+    <string name="back_button">戻る</string>
+    <string name="reload_button">リロード</string>
+    <string name="help_button">ヘルプ</string>
+    <string name="add_photo_button">"写真
+を加える"</string>
+    <string name="flip_button">Flip</string>
+    <string name="action_button">実行</string>
+    <string name="play_button">再生</string>
+    <string name="pause_button">一時停止</string>
+    <string name="flipboard_app_title">Flipboard</string>
+    <string name="rate_this_app_title">Flipboardを気に入られた場合は、App Storeでこのアプリを評価してください。ご協力に感謝いたします！</string>
+    <string name="rate_this_app_no">しない</string>
+    <string name="rate_this_app_yes">今すぐ評価</string>
+    <string name="rate_this_app_later">後で通知</string>
+    <string name="rate_this_app_simulator_title">シミュレータでは評価できません</string>
+    <string name="rate_this_app_simulator_msg">実際のiPadをお使いでないため、ここでアプリの評価を行うことはできません。</string>
+    <string name="add_section_title">お気に入りに追加しますか？</string>
+    <string name="add_section_msg">このセクションをお気に入りに追加しますか？</string>
+    <string name="add_section_msg_format">「%s」セクションをお気に入りに追加しますか？</string>
+    <string name="add_section_to_toc_button_label">追加</string>
+    <string name="add_section_to_toc_added_label">追加済</string>
+    <string name="add_section_overflow_hint_title">Flipboardのヒント</string>
+    <string name="add_section_overflow_hint_msg">いくつでも好きなだけ追加できます。リボンをタップすると、これらがすべて表示されます。</string>
+    <string name="contents_back_button">Flipboard</string>
+    <string name="ad_hoc_update_title">新しいベータ版ビルド</string>
+    <string name="ad_hoc_update_msg_format">Flipboard%sにアップデートしますか？</string>
+    <string name="everything_section_name">すべてのセクション</string>
+    <string name="cover_stories_section_name">Cover Stories</string>
+    <string name="friends_section_name">友達</string>
+    <string name="recommended_section_name">お勧め</string>
+    <string name="photos_section_name">写真</string>
+    <string name="everything_social_section_name">ソーシャル全般</string>
+    <string name="tell_friends_on_service_format">%sで友達と共有しますか？</string>
+    <string name="section_on_flipboard_format" formatted="false">%sさんがFlipboardで%sを読んでいます</string>
+    <string name="add_a_comment_placeholder">コメントを追加…</string>
+    <string name="share_on_service_button_format">%sで共有</string>
+    <string name="like_generic_format">%s上でいいねを押す</string>
+    <string name="login_alert_title">ログイン</string>
+    <string name="login_alert_default_msg">ログインが必要です。</string>
+    <string name="login_alert_item_msg_format" formatted="false">%sで%sするにはログインが必要です。</string>
+    <string name="login_alert_read_later_msg_format">後で読むに追加するにはログインが必要です。</string>
+    <string name="login_alert_follow_msg_format" formatted="false">\@%sをフォローするには、%sにログインが必要です。</string>
+    <string name="login_alert_compose_msg">メッセージを投稿するには、ソーシャルアカウントへのログインが必要です。</string>
+    <string name="login_alert_reply_msg_format">返信するには、%s にログインしてください。</string>
+    <string name="login_alert_share_msg">このアイテムをシェアするには、ログインしてください。</string>
+    <string name="login_unsupported_alert_title_format">%sは有効になっていません</string>
+    <string name="login_unsupported_alert_msg_format">%sのアカウントは有効になっていません。Flipboard最新版へのアップデートを試みてください。</string>
+    <string name="social_action_reply_to">返信</string>
+    <string name="social_action_share">共有</string>
+    <string name="social_action_like">いいね</string>
+    <string name="social_action_unlike">いいね解除</string>
+    <string name="social_action_favorite">お気に入り登録</string>
+    <string name="social_action_unfavorite">お気に入り解除</string>
+    <string name="social_action_star">スター付け</string>
+    <string name="social_action_unstar">スター解除</string>
+    <string name="social_action_compose">作成</string>
+    <string name="social_action_follow">フォロー</string>
+    <string name="social_action_update">アップデート</string>
+    <string name="social_action_comment">コメント</string>
+    <string name="social_action_retweet">リツイート</string>
+    <string name="social_error_short_title_format">次の操作を実行できません：%s</string>
+    <string name="social_error_title_format">次の操作を実行できません：%1$s</string>
+    <string name="social_error_msg_format">次の操作を実行できません：%1$s%3$s</string>
+    <string name="social_error_offline_reason">。理由：インターネット接続がありません。</string>
+    <string name="social_error_no_provided_reason">。 後でもう一度やり直してください。</string>
+    <string name="social_error_user">ユーザ</string>
+    <string name="social_error_item">項目</string>
+    <string name="social_error_already_following_title">すでにフォロー</string>
+    <string name="social_error_already_following_msg">あなたはすでにこのユーザをフォローしています。</string>
+    <string name="social_error_too_long_title">メッセージが長すぎます</string>
+    <string name="social_error_too_long_msg_format">メッセージは%d文字未満でなければなりません。</string>
+    <string name="social_button_retweet">リツイート</string>
+    <string name="social_button_follow">フォロー</string>
+    <string name="social_button_close">閉じる</string>
+    <string name="social_likes_header">いいね</string>
+    <string name="social_comments_header">コメント</string>
+    <string name="social_mentions_header">メンション</string>
+    <string name="confirm_retweet_on_twitter_title">Twitterでリツイート</string>
+    <string name="confirm_retweet_on_twitter_msg">この項目はTwitterでリツイートされます。</string>
+    <string name="confirm_follow_title_format">%sでフォロー</string>
+    <string name="confirm_follow_msg_format">あなたの%3$sアカウント%2$sから、%1$sさんをフォローしますか？</string>
+    <string name="from_the_future">未来</string>
+    <string name="just_now">たった今</string>
+    <string name="yesterday">昨日</string>
+    <string name="_1_minute_ago">1分前</string>
+    <string name="n_minutes_ago_format">%d分前</string>
+    <string name="_1_hour_ago">1時間前</string>
+    <string name="n_hours_ago_format">%d時間前</string>
+    <string name="date_time_format" formatted="false">%s%s</string>
+    <string name="time_format">ah:mm</string>
+    <string name="weekday_format">EEEE</string>
+    <string name="month_and_day_format">MMMMd日</string>
+    <string name="mon_and_day_format">MMMd日</string>
+    <string name="_1_min">1分前</string>
+    <string name="n_mins_format">%d分前</string>
+    <string name="_1_day">1日前</string>
+    <string name="n_days_format">%d日前</string>
+    <string name="n_m_ago">%d分前</string>
+    <string name="n_h_ago">%d時間前</string>
+    <string name="n_d_ago">%d日前</string>
+    <string name="_1_second">1秒</string>
+    <string name="_1_minute">1分</string>
+    <string name="_1_hour">1時間</string>
+    <string name="n_seconds_format">%d秒</string>
+    <string name="n_minutes_format">%d分</string>
+    <string name="n_hours_format">%d時間</string>
+    <string name="hours_minutes_seconds_format" formatted="false">%s、%s、%s</string>
+    <string name="minutes_seconds_format" formatted="false">%s、%s</string>
+    <string name="toc_page_n_of_n_format">ページ%1$d/%2$d</string>
+    <string name="toc_no_internet">インターネットがありません</string>
+    <string name="toc_sign_in_button_description">"タップして
+ログインする…"</string>
+    <string name="toc_no_items_error_msg">"コンテンツが
+ありません"</string>
+    <string name="add_section_toc_title">もっと見る</string>
+    <string name="toc_n_more_format">さらに%d件</string>
+    <string name="toc_settings_accessibility_label">設定</string>
+    <string name="toc_refresh_accessibility_label">更新</string>
+    <string name="from">から</string>
+    <string name="content_guide_title">Content</string>
+    <string name="add_more_search_title">検索</string>
+    <string name="add_more_search_placeholder">あれこれ検索…</string>
+    <string name="content_guide_ax_title">コンテンツガイド</string>
+    <string name="content_guide_edition_title">コンテンツガイド版</string>
+    <string name="content_guide_current_edition_format">%s版</string>
+    <string name="choose_your_content_guide_edition">コンテンツガイドを変更する</string>
+    <string name="choose_your_content_guide_edition_format">%s - コンテンツガイドを変更する</string>
+    <string name="content_guide_edition_update_failed_title">更新できません</string>
+    <string name="content_guide_edition_update_failed_message">今はコンテンツガイドエディションを更新することができません</string>
+    <string name="confirm_sign_out_title_format">"%sからログアウト
+しますか？"</string>
+    <string name="confirm_sign_out_msg_format">%sアカウントをFlipboardから完全に削除します。</string>
+    <string name="confirm_sign_out_msg_flipboard">再ログインするといつでもFlipboardコンテンツにアクセスできます。</string>
+    <string name="sign_out">ログアウト</string>
+    <string name="keep_account">アカウントをキープする</string>
+    <string name="tile_removal_sign_out_title_format">アカウントを完全に削除しますか？</string>
+    <string name="tile_removal_sign_out_msg_format">このセクションを消去しました。Flipboardから%sのアカウントを完全に削除しますか？</string>
+    <string name="tile_removal_sign_out_button_title">はい</string>
+    <string name="tile_removal_keep_account_button_title">いいえ</string>
+    <string name="gr_tip_title">Googleリーダーのヒント</string>
+    <string name="gr_tip_msg">Googleリーダーの友達、フォルダ、およびフィードを表示するには、画面上部のタイトルをタップしてください。</string>
+    <string name="account_add_err_title">アカウントを追加できませんでした</string>
+    <string name="account_add_err_msg">アカウントを追加しようとしてエラーが発生しました。もう一度やり直してください。</string>
+    <string name="compose_settings_shorten_links">リンクを短くする</string>
+    <string name="compose_settings_clear_msg">消去</string>
+    <string name="compose_remove">取り除く</string>
+    <string name="compose_clear_title">メッセージを消去しますか？</string>
+    <string name="compose_clear_msg">すべてのテキストと添付ファイルが取り除かれます。</string>
+    <string name="compose_no_accounts">アカウントがありません</string>
+    <string name="compose_attachment">添付ファイル</string>
+    <string name="compose_remove_attachment">添付ファイルを取り除きますか？</string>
+    <string name="compose_remove_location">場所を取り除きますか？</string>
+    <string name="compose_url_err_title">URLの予約中にエラー発生</string>
+    <string name="compose_url_err_msg">イメージ用のURLを予約できませんでした。インターネット接続を調べてから、もう一度やり直してください。</string>
+    <string name="compose_photo">写真</string>
+    <string name="compose_current_page">現在のページ</string>
+    <string name="compose_location">場所</string>
+    <string name="compose_back">戻る</string>
+    <string name="compose_attach">添付</string>
+    <string name="compose_link_format">リンク：%s</string>
+    <string name="attach_location_vc_title">場所</string>
+    <string name="img_upload_err_title">イメージをアップロード中にエラー発生</string>
+    <string name="img_upload_err_msg">1 つまたは複数のイメージをアップロードできませんでした。ネットワーク接続を調べてから、もう一度やり直してください。</string>
+    <string name="read_later_service_failed_title_format">%sに保存できません</string>
+    <string name="read_later_service_failed_generic_msg">インターネットの接続を確認して後でもう一度実行してください</string>
+    <string name="email_cover_subject_line">私のFlipboardです！</string>
+    <string name="article">記事</string>
+    <string name="video">ビデオ</string>
+    <string name="picture">ピクチャ</string>
+    <string name="album">アルバム</string>
+    <string name="audio">オーディオ</string>
+    <string name="tweet">ツイート</string>
+    <string name="status_update">ステータスのアップデート</string>
+    <string name="email_cover_body_html">この雑誌表紙はFlipboardが共有したものです。&lt;br />Flipboardはこちらから http://www.flipboard.com.</string>
+    <string name="email_body_footer_format">&lt;a href=\"%s\">Flipboard&lt;/a>から送信</string>
+    <string name="email_body_pictures_format">%d個のピクチャ</string>
+    <string name="email_body_posted_at">投稿場所：</string>
+    <string name="email_body_on">場所：</string>
+    <string name="tweet_by_name_on_service_format" formatted="false">%s、作成者：%s、場所：%s</string>
+    <string name="n_pictures_posted_by_name_on_service_format" formatted="false">%d個のピクチャが%sさんによって投稿されました（場所：%s）</string>
+    <string name="shared_by_name_on_service_format" formatted="false">%sさんにより%sで共有</string>
+    <string name="no_email_account_error_title">メールアカウントが必要</string>
+    <string name="no_email_account_error_msg">Flipboardでメールを送信するには、「設定」でメールアカウントを追加してください。</string>
+    <string name="continue_browsing">ブラウジングを続ける</string>
+    <string name="shopping_cart_button">買い物かご</string>
+    <string name="choose_section">セクションを選択</string>
+    <string name="your_accounts">追加したアカウント</string>
+    <string name="add_account_section_title">アカウントを追加</string>
+    <string name="categories">カテゴリ</string>
+    <string name="searching">検索中…</string>
+    <string name="no_results_found">何もみつかりませんでした。</string>
+    <string name="fetching_items">項目を受信中…</string>
+    <string name="no_items">項目がありません。</string>
+    <string name="show_n_more_results_format">さらに%d件の結果を表示…</string>
+    <string name="cant_search_offline">セクションを検索できません</string>
+    <string name="cant_search_offline_message">インターネット接続を調べてから、もう一度やり直してください。</string>
+    <string name="fss_accounts">アカウント</string>
+    <string name="flipboard_account_title">Flipboardアカウント</string>
+    <string name="add_more_category_social">アカウント</string>
+    <string name="add_more_category_your_flipboard">マイFlipboard</string>
+    <string name="add_more_favorites_title">マイFlipboard</string>
+    <string name="add_more_favorites_unfavorite_button_title">削除</string>
+    <string name="add_more_favorites_empty_page_cell">空白のページ</string>
+    <string name="add_more_category_audio">再生中</string>
+    <string name="audio_skip_back_accessibility_label">前の曲に戻る</string>
+    <string name="audio_skip_forward_accessibility_label">次の曲に進む</string>
+    <string name="audio_show_playback_controls_accessibility_label">プレイバックコントロールを表示する</string>
+    <string name="audio_playback_control_accessibility_name">再生コントロール</string>
+    <string name="audio_album_artwork_accessibility_label">アルバムアートワーク</string>
+    <string name="audio_time_elapsed_format_accessibility_label">%s経過</string>
+    <string name="audio_time_remaining_format_accessibility_label">残り%s</string>
+    <string name="audio_error_title_unable_to_play_item">オーディオを再生できません</string>
+    <string name="audio_error_message_check_internet_connection">インターネット接続を調べてから、もう一度やり直してください。</string>
+    <string name="audio_error_message_audio_may_no_longer_be_available">このオーディオはもう再生することができないかもしれません。</string>
+    <string name="section_name_on_flipboard_format">%sをFlipboardで</string>
+    <string name="fl_account_vc_title">Flipboardアカウント</string>
+    <string name="fl_account_progress_create">アカウントを作成中…</string>
+    <string name="fl_account_progress_delete">アカウントを削除中…</string>
+    <string name="fl_account_progress_login">ログイン中…</string>
+    <string name="fl_account_progress_upload_avatar">アバターをアップデート中…</string>
+    <string name="fl_account_progress_update_profile">プロファイルをアップデート中…</string>
+    <string name="fl_account_progress_stop_success">成功！</string>
+    <string name="fl_account_progress_stop_deleted">アカウントが削除されました</string>
+    <string name="fl_account_log_in_title">Flipboard</string>
+    <string name="fl_account_sign_up_title">Flipboardの登録</string>
+    <string name="fl_account_edit_title">Flipboard</string>
+    <string name="fl_account_user_name_label">ユーザ名</string>
+    <string name="fl_account_user_name_placeholder">半角英数のみ</string>
+    <string name="fl_account_password_placeholder" />
+    <string name="fl_account_full_name_label">名前</string>
+    <string name="fl_account_full_name_placeholder">オプション</string>
+    <string name="fl_account_email_label">メール</string>
+    <string name="fl_account_email_placeholder">example@example.com</string>
+    <string name="fl_account_password_label">パスワード</string>
+    <string name="fl_account_picture_label">写真</string>
+    <string name="fl_account_reason_too_short">短すぎます</string>
+    <string name="fl_account_reason_too_long">長すぎます</string>
+    <string name="fl_account_reason_taken">既に使用されています</string>
+    <string name="fl_account_reason_invalid_characters">無効な文字です</string>
+    <string name="fl_account_reason_invalid">無効</string>
+    <string name="fl_account_sign_up_footer_html_format" formatted="false">Flipboardのアカウントを作成するには、&lt;a href=%s>利用規約&lt;/a> 、&lt;a href=%s>プライバシーポリシー&lt;/a>を読み承諾してください。</string>
+    <string name="fl_account_autofill_title">既存の写真を使用しますか？</string>
+    <string name="fl_account_autofill_cancel_button">使用しない</string>
+    <string name="fl_account_create_button_title">作成</string>
+    <string name="fl_account_sign_in_button_title">ログイン</string>
+    <string name="fl_account_login_confirm_alert_title">コンテンツを入れ替えますか？</string>
+    <string name="fl_account_login_confirm_alert_msg">ログインすると、現在利用中のコンテンツから、あなたのFlipboardアカウントのコンテンツに入れ替えられます。</string>
+    <string name="fl_account_login_footer_html">ログインすると、さらに便利なFlipboardの機能をお楽しみいただけます。&lt;br>ログインできない場合は&lt;a href=flipboard://showHelp>こちら&lt;/a></string>
+    <string name="fl_account_login_failed_title">ログインできません</string>
+    <string name="fl_account_login_failed_online_message">また後で試してください。</string>
+    <string name="fl_account_login_failed_offline_message">インターネットの接続がオフラインになっているようです。</string>
+    <string name="fl_account_edit_button_title">アカウントを編集</string>
+    <string name="fl_account_edit_manage_button_title">その他の設定…</string>
+    <string name="fl_account_edit_manage_webview_title">アカウント設定</string>
+    <string name="fl_account_conflict_title">既存のアカウント</string>
+    <string name="fl_account_conflict_label_format" formatted="false">この%sとアカウント「%s」はそれぞれデータを持っています。どちらのデータを維持しますか？</string>
+    <string name="fl_account_conflict_this_device_format">この%s</string>
+    <string name="fl_account_conflict_your_account">あなたのアカウント</string>
+    <string name="fl_account_conflict_n_accounts_n_sections_format" formatted="false">"%dアカウント
+%dセクション"</string>
+    <string name="fl_account_conflict_keep_this_device_title">アカウントデータを削除しますか？</string>
+    <string name="fl_account_conflict_keep_this_device_msg">Flipboardアカウントの既存データが削除されます。</string>
+    <string name="fl_account_conflict_keep_your_account_title">端末に保存されたデータを削除しますか？</string>
+    <string name="fl_account_conflict_keep_your_account_msg_format">この%sにあるFlipboardデータが削除されます。</string>
+    <string name="fl_account_conflict_continue_button">削除</string>
+    <string name="fl_account_intro_title">"どこでも、
+あなたのFlipboardと。"</string>
+    <string name="fl_account_intro_detail_text">"アカウントがあれば、
+Flipboardのコンテンツを
+様々なデバイス間で
+共有することができます。"</string>
+    <string name="loading">読み込み中…</string>
+    <string name="sending">送信中…</string>
+    <string name="authenticating">認証中…</string>
+    <string name="added">追加済</string>
+    <string name="adding">追加中</string>
+    <string name="service_down">問題が発生し、Flipboardが適切に更新されていない可能性があります。最新のステイタスは@flipboard_jpをフォローしてください。</string>
+    <string name="sign_in_toc_title">ログイン…</string>
+    <string name="sign_in">ログイン</string>
+    <string name="signing_in">ログイン中…</string>
+    <string name="creating_account">アカウントを作成中…</string>
+    <string name="updating_account">アカウントの更新中…</string>
+    <string name="sign_in_vc_title_format">%sにログイン</string>
+    <string name="username">ユーザ名</string>
+    <string name="password">パスワード</string>
+    <string name="need_help_button">ヘルプ</string>
+    <string name="flipboard_help_title">Flipboardに関するヘルプ</string>
+    <string name="fl_account_help_title">アカウントに関するヘルプ</string>
+    <string name="generic_login_err_title">ログインエラー</string>
+    <string name="generic_login_err_msg">アカウントにログインできませんでした。後でもう一度やり直してください。</string>
+    <string name="offline_login_err_title_format">%sに接続できません</string>
+    <string name="offline_login_err_msg">インターネット接続を調べてから、後でもう一度試してみてください。</string>
+    <string name="generic_unauthorized_err_msg">ユーザ名またはパスワードが正しくありません。もう一度やり直してください。</string>
+    <string name="twitter_unreachable_err_msg">Twitterに接続できません。インターネット接続を調べるか、後でもう一度やり直してください。</string>
+    <string name="twitter_flipboard_capacity_err_msg">現在Flipboardは容量過剰です。後でTwitterアカウントを追加してみてください。</string>
+    <string name="twitter_sign_in_description">Twitterで友達と共有しているリンク、写真、アップデートをフリップ。</string>
+    <string name="google_reader_sign_in_description">Googleリーダーの自分のフィード、フォルダ、および共有アイテムをフリップ。</string>
+    <string name="generic_sign_in_description">%sのコンテンツをフリップ。</string>
+    <string name="facebook_sso_fastswitch_back_msg">"あなたのFacebookアカウントへのログインを試みています。
+再試行して、許可を求められた場合は承認してください。"</string>
+    <string name="in_store_demo_vc_title">デモではこの機能を使用できません</string>
+    <string name="account_chooser_vc_title">アカウントを選択</string>
+    <string name="settings_vc_title">設定</string>
+    <string name="read_later_select_service_vc_title">「 後で読む」サービス</string>
+    <string name="read_later_select_service_unknown_title">不明な「 後で読む」サービス</string>
+    <string name="about_vc_title">Flipboardについて</string>
+    <string name="about_screen_version_string_prefix">Flipboard</string>
+    <string name="about_screen_copyright">© 2010-2012 Flipboard Inc.</string>
+    <string name="about_screen_credits">"RegexKitLite &amp; JSONKit by John Engelhart
+HockeyKit and QuincyKit by Andreas Linde
+CocoaLumberjack by Deusty, LLC
+GZip Utility by Stefan Arentz
+LibLZF by Marc Lehmann"</string>
+    <string name="about_screen_terms_of_use">利用規約</string>
+    <string name="about_screen_privacy_policy">プライバシーポリシー</string>
+    <string name="help_vc_title">ヘルプ</string>
+    <string name="native_sign_in_progress_login_succeeded">ログインに成功しました。</string>
+    <string name="native_sign_in_progress_login_failed">ログインに失敗しました。</string>
+    <string name="saved_to_read_later_service_format">%sに保存する</string>
+    <string name="removed_from_read_later_service_format">%sから削除する</string>
+    <string name="read_later_error_title_format">%sに保存できませんでした</string>
+    <string name="account_info_sign_out_section_title">ログアウト</string>
+    <string name="latest">最新</string>
+    <string name="untitled">名称未設定</string>
+    <string name="untitled_post">名称未設定投稿</string>
+    <string name="untitled_picture">名称未設定ピクチャ</string>
+    <string name="untitled_album">名称未設定アルバム</string>
+    <string name="untitled_video">名称未設定ビデオ</string>
+    <string name="untitled_audio">名称未設定オーディオ</string>
+    <string name="share_by_email">リンクをメール送信</string>
+    <string name="share_cover_by_email">カバーをメール送信</string>
+    <string name="share_on_twitter">リツイート</string>
+    <string name="share_with_comment_on_twitter">コメント付きリツイート…</string>
+    <string name="share_with_comment_on_facebook">ウォールに投稿する…</string>
+    <string name="share_with_comment_intent_dialog_title">共有アプリの選択：</string>
+    <string name="share_with_comment_intent_title">他のアプリで共有</string>
+    <string name="flip_it_later">あとでフリップする</string>
+    <string name="flip_it_later_add_title">あとでフリップする</string>
+    <string name="share_with_comment_generic_title">リンクをシェアする…</string>
+    <string name="flip_it_later_remove_title">あとでフリップから削除する</string>
+    <string name="view_on_web_popover">Webで表示</string>
+    <string name="read_later">後で読む</string>
+    <string name="read_on_web">Webで読む</string>
+    <string name="report_bug">バグレポートを送信</string>
+    <string name="show_debug">デバッグする</string>
+    <string name="open_in_safari">Safariで開く</string>
+    <string name="compose_button_ax_title">作成</string>
+    <string name="share_section_button_ax_title">共有項目</string>
+    <string name="mark_unread_title">未読にする</string>
+    <string name="mark_all_read_title">すべてを既読にする</string>
+    <string name="show_all_items">すべての項目を表示</string>
+    <string name="flag_inappropriate">不適切な項目にフラグ</string>
+    <string name="vote_up">賛成投票</string>
+    <string name="vote_down">反対投票</string>
+    <string name="author_popover_selection_title">コメントを閲覧し返信する…</string>
+    <string name="report_issue">Report Issue</string>
+    <string name="issue_reporter">Reporter</string>
+    <string name="issue_type">Type:</string>
+    <string name="issue_type_report_bug">Report Bug</string>
+    <string name="issue_type_report_critical_bug">Report Critical Bug</string>
+    <string name="issue_type_request_feature">Request Feature</string>
+    <string name="issue_area">Area:</string>
+    <string name="issue_reproducibility">Reproducibility:</string>
+    <string name="issue_summary">Summary:</string>
+    <string name="issue_summary_required">Required…</string>
+    <string name="issue_description">Description:</string>
+    <string name="issue_description_placeholder">Steps to reproduce…</string>
+    <string name="issue_reproducibility_not_sure">Not sure.</string>
+    <string name="issue_reproducibility_easy">Easy to reproduce.</string>
+    <string name="issue_reproducibility_sometimes">Sometimes able to reproduce.</string>
+    <string name="issue_reproducibility_difficult">Difficult to reproduce.</string>
+    <string name="uploading_issue_report">Reporting Issue…</string>
+    <string name="uploading_issue_report_failed_title">Uploading issue report failed</string>
+    <string name="uploading_issue_report_failed_message">Your internet connection may be experiencing problems.</string>
+    <string name="issue_uploaded">Issue reported!</string>
+    <string name="issue_upload_after_offline_mode">An issue report was saved while your network connection was offline. The issue has now been reported.</string>
+    <string name="issue_upload_ok">OK</string>
+    <string name="issue_upload_email">Email</string>
+    <string name="issue_upload_retry">Retry</string>
+    <string name="issue_upload_cancel">Cancel</string>
+    <string name="flag_inappropriate_confirm_title">不適切な項目にフラグを付けますか？</string>
+    <string name="flag_inappropriate_confirm_message">この項目は非表示になり、Flipboardチームで検討するためにフラグが付けられます。</string>
+    <string name="flag_inappropriate_confirm_button">フラグを付ける</string>
+    <string name="hidden_item_text_marked_inappropriate">フラグを立てる</string>
+    <string name="hidden_item_text_removed_from_flip_it_later">削除</string>
+    <string name="web_view_load_failed_title">Webページを開けません</string>
+    <string name="web_view_load_failed_message">後でもう一度試してみてください。</string>
+    <string name="web_view_cannot_load_message">Webページを読み込めません</string>
+    <string name="web_view_open_external_title">Appストアを開きますか？</string>
+    <string name="web_view_open_external_message">このリンクはFlipboardの外で開きます</string>
+    <string name="web_snapshot_loading_text">Web ページを読み込み中…</string>
+    <string name="web_snapshot_could_not_load">ウェブプリビューをロードできません</string>
+    <string name="failed_to_load_video_title">ビデオを読み込めません</string>
+    <string name="failed_to_load_video_message">後でもう一度やり直してください。</string>
+    <string name="loading_video">ビデオを読み込み中…</string>
+    <string name="session_expired_title_format">%sログイン</string>
+    <string name="session_expired_message_format">セクションをアップデートするには、もう一度%sにログインしてください。</string>
+    <string name="likes_this_format">%sがいいね！</string>
+    <string name="liked_this_inline_n_person_format">%d人がいいね！</string>
+    <string name="liked_this_inline_n_people_format">%d人がいいね！</string>
+    <string name="liked_this_inline_np_people_format">%d人以上がいいね！</string>
+    <string name="liked_this_inline_by_x_singular_format">%sがいいね！</string>
+    <string name="liked_this_inline_by_x_and_n_other_person_format" formatted="false">%sとその他%d人がいいね！</string>
+    <string name="liked_this_inline_by_x_and_n_others_format" formatted="false">%sとその他%d人がいいね！</string>
+    <string name="liked_this_inline_by_x_and_x_fortmat" formatted="false">%sと%sがいいね！</string>
+    <string name="retweeted_this_inline_n_person_format">%d人がリツイート</string>
+    <string name="retweeted_this_inline_n_people_format">%d人がリツイート</string>
+    <string name="retweeted_this_inline_np_people_format">%d人以上がリツイート</string>
+    <string name="retweeted_this_inline_by_x_singular_format">%sがリツイート</string>
+    <string name="retweeted_this_inline_by_x_and_n_other_person_format" formatted="false">%sと他%d人がリツイート</string>
+    <string name="retweeted_this_inline_by_x_and_n_others_format" formatted="false">%sと他%d人がリツイート</string>
+    <string name="retweeted_this_inline_by_x_and_x_fortmat" formatted="false">%sと%sがリツイート</string>
+    <string name="favorited_this_inline_n_person_format">%d人がお気に入り</string>
+    <string name="favorited_this_inline_n_people_format">%d人がお気に入り</string>
+    <string name="favorited_this_inline_np_people_format">%d人以上がお気に入り</string>
+    <string name="favorited_this_inline_by_x_singular_format">%sがお気に入り</string>
+    <string name="favorited_this_inline_by_x_and_n_other_person_format" formatted="false">%sとその他%d人がお気に入り</string>
+    <string name="favorited_this_inline_by_x_and_n_others_format" formatted="false">%sとその他%d人がお気に入り</string>
+    <string name="favorited_this_inline_by_x_and_x_format" formatted="false">%sと%sがお気に入り</string>
+    <string name="retweed_by_x_and_others_format" formatted="false">%sとその他%d人によりリツイート。</string>
+    <string name="retweed_by_two_format" formatted="false">%sと%sによりリツイート。</string>
+    <string name="retweed_by_one_format">%sによりリツイート。</string>
+    <string name="retweeted_timeline_format">%sによる</string>
+    <string name="multiple_person_like_plural_format" formatted="false">%sと他%d人</string>
+    <string name="multiple_person_like_singular_format" formatted="false">%sと他%d人</string>
+    <string name="two_person_like_format" formatted="false">%sと%s</string>
+    <string name="one_person_like_format">%s</string>
+    <string name="mentions_x_and_others_format" formatted="false">%sとその他%d人のことを言っています</string>
+    <string name="mentions_two_people_format" formatted="false">%sと%sのことを言っています</string>
+    <string name="mentions_one_person_format">%sのことを言っています</string>
+    <string name="comment_single_inline_format">%d件のコメント</string>
+    <string name="comments_multiple_inline_format">%d件のコメント</string>
+    <string name="shared_by_format">%sさんがシェアしました。</string>
+    <string name="posted_by_format">%sが投稿しました</string>
+    <string name="you">自分</string>
+    <string name="checking_for_commentary">アップデート中…</string>
+    <string name="n_tweet_conversation_format">%d件のツイートスレッド</string>
+    <string name="type_your_reply">返信内容を入力…</string>
+    <string name="show_tweets">ツィートを表示</string>
+    <string name="show_wall">ウォールを表示</string>
+    <string name="show_photos">写真を表示</string>
+    <string name="show_n_photos_format">%d個の写真を表示</string>
+    <string name="show_feed">フィードを表示</string>
+    <string name="show_section">セクションを表示</string>
+    <string name="show_full_album">アルバム全体を表示</string>
+    <string name="already_in_section_format">すでに%s内にあります、続ける</string>
+    <string name="view_user_profile">プロファイルを表示</string>
+    <string name="view_on_website_format">%sで表示</string>
+    <string name="follow_on_twitter">Twitterでフォロー</string>
+    <string name="placeholder_reply">返信内容を入力</string>
+    <string name="placeholder_fb_comment">メッセージを追加</string>
+    <string name="placeholder_fb_post">Facebookで近況アップデートを投稿する</string>
+    <string name="placeholder_twitter_post">Twitterにツイートする</string>
+    <string name="placeholder_weibo_post">Sina Weiboにポストする</string>
+    <string name="placeholder_weibo_comment">コメントを追加</string>
+    <string name="placeholder_renren_post">Renrenにポストする</string>
+    <string name="placeholder_renren_comment">コメントを追加</string>
+    <string name="log_in_to_service_to_add_your_reply_format">返信するには%sにログインしてください</string>
+    <string name="comments_view_header_conversation">回答</string>
+    <string name="comments_view_header_comments">コメント</string>
+    <string name="media_view_on_service_format">%sで表示</string>
+    <string name="status_update_retweet_by_format">作成者：%s</string>
+    <string name="item_post_read_on_web">Webサイトにアクセスするには、下の「Webで読む」をタップしてください。</string>
+    <string name="popular_story">Flipboardで人気</string>
+    <string name="hide_user">非表示…</string>
+    <string name="hide_user_everywhere">全てのスペースで非表示…</string>
+    <string name="hide_user_in_section_format">%s内で非表示…</string>
+    <string name="hide_contributor">作者を非表示にする</string>
+    <string name="hidden_contributors">非表示にしたユーザ</string>
+    <string name="hide_authorname_everywhere_format">「%s」からの投稿をFlipboard内のすべてのスペースで非表示にしますか?</string>
+    <string name="hide_authorname_in_section_format" formatted="false">「%s」からの投稿を%s内で非表示にしますか?</string>
+    <string name="hidden_everywhere">非表示中</string>
+    <string name="hidden_in_section_format">%sで非表示中</string>
+    <string name="existing_hidden">その他非表示にしたユーザ：</string>
+    <string name="hide_footer">非表示のユーザへの変更は、フリップ操作で現在のセクションから離れたときに有効になります。</string>
+    <string name="no_hidden_contributors_footer">現在非表示中のユーザはいません。ユーザの画像またはユーザ名をタップして「非表示」を選択すると非表示機能がご利用になれます。</string>
+    <string name="hidden">非表示</string>
+    <string name="shown">表示</string>
+    <string name="hide_button">非表示にする</string>
+    <string name="hide_confirm_button">非表示</string>
+    <string name="confirm_mute_user_title">ユーザを非表示にしますか?</string>
+    <string name="confirm_mute_user_in_section_msg_format" formatted="false">%sの%sへの投稿は%s上には表示されません。</string>
+    <string name="confirm_mute_user_everywhere_msg_format" formatted="false">%sの%sへの投稿はFlipboard上には表示されません。</string>
+    <string name="confirm_mute_user_optional_msg_format">%sのポストを隠す</string>
+    <string name="confirm_mute_user_in_section_button_format">%sを非表示にする</string>
+    <string name="confirm_mute_user_everywhere_button_title">すべて非表示にする</string>
+    <string name="cant_hide_user_title">ユーザを非表示にできません</string>
+    <string name="cant_hide_user_message">予期しないエラーが発生しました。</string>
+    <string name="via_service_format">%s経由</string>
+    <string name="flipboard_account_username_placeholder_text">作成・ログイン</string>
+    <string name="featuring_inline_n_person_format">%d人からの投稿</string>
+    <string name="featuring_inline_n_people_format">%d人からの投稿</string>
+    <string name="featuring_inline_np_people_format">%d人以上からの投稿</string>
+    <string name="featuring_inline_by_x_singular_format">%sからの投稿</string>
+    <string name="featuring_inline_by_x_and_n_other_person_format" formatted="false">%sと他%d件の投稿</string>
+    <string name="featuring_inline_by_x_and_n_others_format" formatted="false">%sと他%d件の投稿</string>
+    <string name="featuring_inline_by_x_and_x_fortmat" formatted="false">%sと%sからの投稿</string>
+    <string name="share_this_section">このセクションをシェアする</string>
+    <string name="cover_stories_provenance_with">WITH</string>
+    <string name="cover_stories_provenance_plus">PLUS</string>
+    <string name="cover_stories_provenance_and_format">%s</string>
+    <string name="cover_stories_provenance_and_more">＆モア</string>
+    <string name="cover_stories_show_section_button">カバーストーリーをもっと読む</string>
+    <string name="grid_view_back_button_cover">カバー</string>
+    <string name="cover_stories_tile_explanation_title">Flipboardのカバーストーリー</string>
+    <string name="cover_stories_tile_expalanation_msg">あなたのFlipboardの注目のカバーストーリーを読む。設定で太文字のタイトルは隠すことができます。</string>
+    <string name="first_launch_swipe_up_to_continue">スワイプアップして続ける…</string>
+    <string name="first_launch_account_label">Flipboardアカウントを既にお持ちですか？ログインしてください…</string>
+    <string name="first_launch_pick">カテゴリーを選択してスタート。</string>
+    <string name="first_launch_pick_subtitle">追加や編集は後ほどいつでも行えます。</string>
+    <string name="first_launch_get_started_button">スタート</string>
+    <string name="first_launch_get_started_label">Flipboardを作成する</string>
+    <string name="first_launch_sign_in_button">ログイン</string>
+    <string name="first_launch_sign_in_label_pad">Flipboardアカウントをお持ちの方</string>
+    <string name="first_launch_sign_in_label_phone">Flipboardアカウント</string>
+    <string name="first_launch_failed_title">Flipboardを作成できませんでした</string>
+    <string name="first_launch_failed_online_message">しばらく経ってから再度お試しください。</string>
+    <string name="first_launch_failed_offline_message">インターネットの接続がオフラインになっているようです。</string>
+    <string name="page_count_format" formatted="false">ページ%d/%d</string>
+    <string name="build_flipboard_button">Flipboardを構築する</string>
+    <string name="building_your_flipboard">あなたのFlipboardを構築中…</string>
+    <string name="n_pictures_format">%d枚の写真</string>
+    <string name="shared_by_n_of_your_friends">%d人の友達により共有されました</string>
+    <string name="loading_items">項目を読み込み中…</string>
+    <string name="tap_to_reload">タップしてリロードしてください</string>
+    <string name="toc_edit_alert_title">コンテンツガイドで編集</string>
+    <string name="toc_edit_alert_msg">Flipboardを編集するにはコンテンツガイドを使用します。</string>
+    <string name="never">しない</string>
+    <string name="flip_down_to_refresh">再読込みするにはフリップダウンしてください</string>
+    <string name="release_to_refresh">離してリフレッシュ</string>
+    <string name="last_updated_format">前回のアップデート：%s</string>
+    <string name="no_new_items">新着アイテムはありません</string>
+    <string name="refresh_failed">再読込みできませんでした</string>
+    <string name="add_section_to_your_flipboard_button_label_format">「%s」をFlipboardに追加</string>
+    <string name="add_section_to_your_flipboard_confirmation">Flipboardに追加されました</string>
+    <string name="twitter_sso_section_title">ログインするにはあなたのアカウントをタップしてください</string>
+    <string name="twitter_sso_section_title_multiple">ログインするにはタップしてください</string>
+    <string name="twitter_sso_other_account">別のアカウントを使用する…</string>
+    <string name="take_photo">写真を撮影…</string>
+    <string name="choose_existing_photo">ライブラリから選択…</string>
+    <string name="remove_picture">写真を削除</string>
+    <string name="first_launch_cover_welcome">"こんにちは
+Flipboardです。"</string>
+    <string name="first_launch_cover_subtitle">あなたのすべてが一冊の雑誌に</string>
+    <string name="first_launch_cover_with">WITH</string>
+    <string name="first_launch_cover_networks">"FACEBOOK
+TWITTER
+INSTAGRAM
+＆モア"</string>
+    <string name="first_launch_cover_networks_china_variant">"RENREN
+SINA WEIBO
+Googleリーダー
+＆モア"</string>
+    <string name="fl_account_signed_in_as_format">%sにログインする</string>
+    <string name="double_tap_to_open">ダブルタップで開く</string>
+    <string name="nyt_upgrade_alert_message">あなたのアカウントは、このデバイスからニューヨークタイムスへのフルアクセスができません</string>
+    <string name="accessibility_at_format" formatted="false">%sに%s</string>
+    <string name="accessibility_humanoid_button">ユーザー情報</string>
+    <string name="accessibility_page_n_format">ページ%d</string>
+    <string name="accessibility_close_content_guide">コンテンツガイドを閉じる</string>
+    <string name="accessibility_dismiss_popover">ポップアップできません</string>
+    <string name="accessibility_modal_show_format">%sを表示</string>
+    <string name="accessibility_modal_hide_format">%sを隠す</string>
+    <string name="accessibility_character_count_format">%d残り文字数</string>
+    <string name="accessibility_first_launch_open_pad">3本指で左にスワイプして開く</string>
+    <string name="accessibility_first_launch_open_phone">3本指で上にスワイプして開く</string>
+    <string name="nyt_upgrade_alert_title">アップグレードしてください</string>
+    <string name="nyt_subscription_alert_title">購読者限定</string>
+    <string name="nyt_limited_access_alert_message">あなたのアカウントは、このデバイスからニューヨークタイムスへのフルアクセスができません</string>
+    <string name="settings_about_title">Flipboardについて</string>
+    <string name="settings_help_title">ヘルプ</string>
+    <string name="settings_flipboard_account_title">Flipboardアカウント</string>
+    <string name="settings_my_accounts_title">ソーシャルメディアアカウント</string>
+    <string name="settings_read_later_title">「 後で読む」サービス</string>
+    <string name="settings_read_later_none">サービスが設定されていません</string>
+    <string name="settings_show_status_updates_title">ステータス更新を表示</string>
+    <string name="settings_show_hints_title">ヒントを表示</string>
+    <string name="settings_muted_authors_title">非表示にしたユーザ</string>
+    <string name="settings_muted_authors_none">非表示にしているユーザはいません</string>
+    <string name="settings_muted_authors_plural_format">%dユーザ</string>
+    <string name="settings_content_guide_title">コンテンツガイド</string>
+    <string name="settings_content_guide_system_default">システムロケールを使う</string>
+    <string name="settings_content_guide_none">初期設定版</string>
+    <string name="settings_username_title">ユーザーネーム</string>
+    <string name="settings_email_address_title">メール</string>
+    <string name="settings_password_title">パスワード</string>
+    <string name="settings_text_size_title">テキストサイズ</string>
+    <string name="settings_text_size_footer">"記事、見出しやコメントの
+テキストサイズを変更できます。"</string>
+    <string name="settings_text_size_normal">中</string>
+    <string name="settings_text_size_large">大</string>
+    <string name="settings_text_size_xlarge">極大</string>
+    <string name="list_tags_separator">" · "</string>
+    <string name="not_optimized_for_china">このバージョンのFlipboardは中国での利用に最適化されていません。</string>
+    <string name="screen_too_big">このデバイスの画面は、Flipboardの現バージョンの推奨画面よりも大きすぎます。全てのページは正確に表示されません。結果は異なる可能性があります。</string>
+    <string name="incompatible_device">このデバイスは最低条件を満たしておらず、Flipboardではサポートしていません。結果は異なる可能性があります。</string>
+    <string name="hardware_accelerated">ハードウェアアクセラレーションはFlipboardではサポートされていません。ハードウェアグラフィックアクセラレーションをオフにしてください。</string>
+    <string name="date_not_set">システムデータが正しくありません。正しいデータを設定してください。</string>
+    <string name="image_load_failed">画像のアップロードに失敗しました。</string>
+    <string name="network_not_available">ネットワークが利用できません。</string>
+    <string name="upload_bad_image">画像が見つかりません。違う画像または別の画像ソースを選択してください。</string>
+    <string name="failed_to_load">設定をロードできませんでした。</string>
+    <string name="retry_button">再試行</string>
+    <string name="shared_from_flipboard_footer">&lt;BR/>&lt;BR/>(Flipboardから送信)</string>
+    <string name="send_email_article_subject">記事：%sは</string>
+    <string name="send_email_picture_subject">写真：%sは</string>
+    <string name="send_email_video_subject">動画（%s）</string>
+    <string name="send_email_album_subject">アルバム：%sは</string>
+    <string name="send_email_tweet_subject">%sがさえずる</string>
+    <string name="send_email_status_update_subject" formatted="false">%sを%sでステータス更新</string>
+    <string name="twitter_fast_action_button">ファストアクションボタン</string>
+    <string name="twitter_fastaction_favorite">お気に入り</string>
+    <string name="twitter_fastaction_retweet">リツイート</string>
+    <string name="twitter_fastaction_read_later">後で読む</string>
+    <string name="googlereader_indicate_unread">未読記事を示す</string>
+    <string name="googlereader_mark_read_after_flip">めくった後に既読にする</string>
+    <string name="googlereader_show_only_unread">未読記事のみ表示する</string>
+    <string name="sync_failed_message">データの同期に失敗しました。</string>
+    <string name="never_synced_message">この問題は、復元され、アカウント設定を防止しています。</string>
+    <string name="createaccount_failed_title">アカウントを作成できませんでした。</string>
+    <string name="updateaccount_failed_title">アカウントを更新できませんでした。</string>
+    <string name="updated_new_item">%d個の新しいページ</string>
+    <string name="updated_new_items">%d個の新しいページ</string>
+    <string name="section_finding_user_title">%sを探して</string>
+    <string name="about_copyright_flipboard">Copyright © 2010–2012 Flipboard Inc.</string>
+    <string name="about_email_bug_report">発生した問題を記述してください:</string>
+    <string name="settings_text_size_small">小</string>
+    <string name="settings_limit_toc_pages">TOCページを制限する</string>
+    <string name="settings_use_flipmag_proxy">Flipmagプロキシを利用する</string>
+    <string name="settings_flipmag_to_flipmag_links">FlipmagからFlipmag へのリンク</string>
+    <string name="settings_track_location">ロケーション追跡</string>
+    <string name="settings_full_screen">フルスクリーンにする</string>
+    <string name="settings_volume_flipping_delay">速度を反転体積</string>
+    <string name="settings_account" formatted="false">%s（%s）を</string>
+    <string name="settings_header_links">リンク</string>
+    <string name="settings_header_options">オプション</string>
+    <string name="settings_header_flipster">インターナルセッティング</string>
+    <string name="settings_header_logs">ログ</string>
+    <string name="settings_widget_updates">ウィジェット更新</string>
+    <string name="settings_content_cache">コンテンツキャッシュ</string>
+    <string name="settings_content_cache_location">場所</string>
+    <string name="settings_content_cache_maxsize">最大サイズ</string>
+    <string name="settings_content_cache_clear">キャッシュの消去</string>
+    <string name="settings_content_cache_internal">インターナル</string>
+    <string name="settings_content_cache_external">エクスターナル</string>
+    <string name="settings_content_cache_header_format" formatted="false">%sファイルに%sを使用、%sが利用可能</string>
+    <string name="settings_content_cache_confirm">コンテンツキャッシュの変更を行いますか？</string>
+    <string name="settings_use_volume_flipping">ボリュームボタンフリッピングを使う</string>
+    <string name="settings_volume_flipping_title">どの速さでめくりたいですか？</string>
+    <string name="settings_volume_flipping_fastest">最速</string>
+    <string name="settings_volume_flipping_relaxed">中速</string>
+    <string name="settings_volume_flipping_slow">低速</string>
+    <string name="settings_flip_orientation">フリップの向きた</string>
+    <string name="settings_flip_orientation_vertical">縦</string>
+    <string name="settings_flip_orientation_horizontal">横</string>
+    <string name="settings_flip_orientation_auto">自動検出</string>
+    <string name="settings_application_mode">アプリケーションモード</string>
+    <string name="settings_application_mode_phone">スマートフォン</string>
+    <string name="settings_application_mode_tablet">タブレット</string>
+    <string name="settings_application_mode_title">どのモードを利用したいですか？</string>
+    <string name="settings_server_baseurl">サーバーURL</string>
+    <string name="settings_server_baseurl_title">サーバーurlを入力</string>
+    <string name="settings_flipmag_proxyhost_format">プロキシホストをFlipmagた：%s</string>
+    <string name="settings_flipmag_proxyhost_title">ホストURLを入力</string>
+    <string name="social_action_more">More…</string>
+    <string name="social_action_commentary">コメント…</string>
+    <string name="social_action_follow_error_title">ユーザーをフォローできませんでした。</string>
+    <string name="social_action_follow_error_message">ユーザーをフォローできませんでした。後ほど実行してください</string>
+    <string name="social_action_share_error_title">%sの項目ではありませんでした</string>
+    <string name="social_action_share_error_message">申し訳ありませんが、%sの項目ませんでした。後でもう一度やり直してください。</string>
+    <string name="social_action_reply_to_error_title">このアイテムに返信できませんでした。</string>
+    <string name="social_action_reply_to_error_message">申し訳ありませんが、このアイテムに返信できませんでした。後ほど実行しください。</string>
+    <string name="popover_button_commentary">タップしてコメントと返信を見る…</string>
+    <string name="compose_screen_pick_source">アカウントを選択</string>
+    <string name="compose_uploading_picture_title">写真をアップロード中</string>
+    <string name="compose_shortening_links_title">リンクを短縮中</string>
+    <string name="compose_need_sd_card">写真をアップロードするにはSDカードを挿入してください。</string>
+    <string name="compose_url_shorten_error">Aネットワークエラーが起こりました。また後ほど実行してください。</string>
+    <string name="compose_upload_failed_title">エラーが発生しました</string>
+    <string name="compose_upload_failed_message">イメージをアップロードできません</string>
+    <string name="back_to_top">トップに戻る</string>
+    <string name="refresh_page">ページを更新</string>
+    <string name="dump_flipmag_data">Flipmagデータを削除</string>
+    <string name="dump_flipmag_html">FlipmagHTMLを削除</string>
+    <string name="loading_through_proxy">プロキシ経由で読み込み中</string>
+    <string name="read_later_select_service_instapaper_title">Instapaper</string>
+    <string name="read_later_select_service_readitlater_title">Pocket</string>
+    <string name="read_later_select_service_readability_title">Readability</string>
+    <string name="report_issue_reporter_hint">jira account e-mail address</string>
+    <string name="report_issue_project">Project</string>
+    <string name="report_issue_pick_one">Pick one</string>
+    <string name="report_issue_edit">Back to bug report</string>
+    <string name="report_issue_onback_title">Hold up</string>
+    <string name="report_issue_onback_message">Are you sure you want to exit without creating the issue? Your input will be discarded.</string>
+    <string name="report_issue_onback_discard">Discard and leave</string>
+    <string name="report_issue_onback_stay">Stay here</string>
+    <string name="report_issue_attachments">Attachments:</string>
+    <string name="report_issue_missing_email">Please fill in your e-mail address</string>
+    <string name="appwidget_label_small">Flipboard (小)</string>
+    <string name="appwidget_label_medium">Flipboard (中)</string>
+    <string name="appwidget_tagline">あなたの全てが一冊の雑誌に</string>
+    <string name="appwidget_cta">こちらをタップ</string>
+    <string name="widget_config_title">Flipboardウィジェット更新</string>
+    <string name="widget_config_manually">行わない</string>
+    <string name="widget_config_hourly">1時間ごと</string>
+    <string name="widget_config_daily">1日ごと</string>
+    <string name="more_button">モア</string>
+    <string name="category_title_news">ニュース</string>
+    <string name="category_title_technology">テクノロジー</string>
+    <string name="category_title_design">デザイン</string>
+    <string name="category_title_photography">写真</string>
+    <string name="category_title_business">ビジネス</string>
+    <string name="category_title_sports">スポーツ</string>
+    <string name="category_title_style">スタイル</string>
+    <string name="category_title_travel">旅行</string>
+    <string name="category_title_politics">政治</string>
+    <string name="category_title_food">フード</string>
+    <string name="category_title_film">映画</string>
+    <string name="category_title_gaming">ゲーム</string>
+    <string name="category_title_autos">車</string>
+    <string name="category_title_music">音楽</string>
+    <string name="category_title_science">科学</string>
+    <string name="category_title_home">ホーム</string>
+    <string name="category_title_celebrity">セレブ</string>
+    <string name="activity_to_resolve_intent_not_found">この操作を行うアプリケーションが見つかりませんでした。</string>
+    <string name="activity_to_resolve_email_intent_not_found">Eメールを作成するアプリケーションが見つかりませんでした。</string>
+    <string name="under_construction_title">Flipboardは現在ご利用になれません</string>
+    <string name="under_construction_msg">Flipboardはメンテナンス中です。後ほどお試しください。</string>
+    <string name="accessibility_grid_title_button_hint">ダブルタップでサービスのサブセクションを表示。</string>
+    <string name="compose_error_generic">操作を実行できませんでした。後でもう一度やり直してください。</string>
+    <string name="compose_error_offline">"インターネット接続がなく、
+操作を実行できませんでした。"</string>
+    <string name="compose_error_title">"メッセージ作成が
+できませんでした"</string>
+    <string name="confirm_subscribe_msg_format">%2$sから%1$sの%3$sアカウントを購読しますか？</string>
+    <string name="favorite_error_generic">操作を実行できませんでした。後でもう一度やり直してください。</string>
+    <string name="favorite_error_offline">"インターネット接続がなく、
+操作を実行できませんでした。"</string>
+    <string name="favorite_error_title">"お気に入り登録が
+できませんでした"</string>
+    <string name="follow_error_generic">操作を実行できませんでした。後でもう一度やり直してください。</string>
+    <string name="follow_error_offline">"インターネット接続がなく、
+操作を実行できませんでした。"</string>
+    <string name="follow_error_title">"ユーザーのフォローが
+できませんでした"</string>
+    <string name="generic_social_error_message_generic">実行できませんでした。後ほどお試しください。</string>
+    <string name="generic_social_error_message_offline">インターネット接続がなく、実行できませんでした。</string>
+    <string name="generic_social_error_title">実行できませんでした</string>
+    <string name="like_error_generic">操作を実行できませんでした。後でもう一度やり直してください。</string>
+    <string name="like_error_offline">"インターネット接続がなく、
+操作を実行できませんでした。"</string>
+    <string name="like_error_title">いいね！ができませんでした</string>
+    <string name="not_optimized_for_china_download_button">ダウンロード</string>
+    <string name="not_optimized_for_china_download_message">最適化されたバージョンをダウンロードする。</string>
+    <string name="plus_oned_this_inline_by_x_and_n_other_person_format" formatted="false">%sと他%d名が+1しました</string>
+    <string name="plus_oned_this_inline_by_x_and_n_others_format" formatted="false">%sと他%d名が+1しました</string>
+    <string name="plus_oned_this_inline_by_x_and_x_fortmat" formatted="false">%sと%sが+1しました</string>
+    <string name="plus_oned_this_inline_by_x_singular_format">%sが+1しました</string>
+    <string name="plus_oned_this_inline_n_people_format">+%d</string>
+    <string name="plusone_error_generic">+1できませんでした。後ほどお試しください。</string>
+    <string name="plusone_error_offline">"インターネット接続がなく、
++1できませんでした。"</string>
+    <string name="plusone_error_title">+1できませんでした</string>
+    <string name="reblog_error_title">リブログできませんでした</string>
+    <string name="reply_to_error_generic">操作を実行できませんでした。後でもう一度やり直してください。</string>
+    <string name="reply_to_error_offline">"インターネット接続がなく、
+操作を実行できませんでした。"</string>
+    <string name="reply_to_error_title">返信ができませんでした</string>
+    <string name="repost_error_title">再投稿できませんでした</string>
+    <string name="retweet_error_title">リツイートできませんでした</string>
+    <string name="share_error_generic">操作を実行できませんでした。後でもう一度やり直してください。</string>
+    <string name="share_error_offline">"インターネット接続がなく、
+操作を実行できませんでした。"</string>
+    <string name="share_error_title">シェアができませんでした</string>
+    <string name="social_action_plusone">+1</string>
+    <string name="social_action_subscribe">購読</string>
+    <string name="social_action_unplusone">+1を解除</string>
+    <string name="social_button_subscribe">購読</string>
+    <string name="social_plusone_header">+1</string>
+    <string name="social_sharedwith_header">この投稿を共有した人:</string>
+    <string name="star_error_generic">操作を実行できませんでした。後でもう一度やり直してください。</string>
+    <string name="star_error_offline">"インターネット接続がなく、
+操作を実行できませんでした。"</string>
+    <string name="star_error_title">"スター登録が
+できませんでした"</string>
+    <string name="subscribe_error_generic">購読出来ませんでした。後ほどお試しください。</string>
+    <string name="subscribe_error_offline">"インターネット接続がなく、
+購読出来ませんでした。"</string>
+    <string name="subscribe_error_title">購読できませんでした</string>
+    <string name="unfavorite_error_generic">操作を実行できませんでした。後でもう一度やり直してください。</string>
+    <string name="unfavorite_error_offline">"インターネット接続がなく、
+操作を実行できませんでした。"</string>
+    <string name="unfavorite_error_title">"お気に入り解除が
+できませんでした"</string>
+    <string name="unlike_error_generic">操作を実行できませんでした。後でもう一度やり直してください。</string>
+    <string name="unlike_error_offline">"インターネット接続がなく、
+操作を実行できませんでした。"</string>
+    <string name="unlike_error_title">"いいね！の解除が
+できませんでした"</string>
+    <string name="unlike_error_unsupported_format">"%sがこの操作をサポートしておらず、
+操作を実行できませんでした。"</string>
+    <string name="unplusone_error_generic">+1を解除できませんでした。後ほどお試しください。</string>
+    <string name="unplusone_error_offline">"インターネット接続がなく、
++1を解除できませんでした。"</string>
+    <string name="unplusone_error_title">+1を解除できませんでした</string>
+    <string name="unstar_error_generic">操作を実行できませんでした。後でもう一度やり直してください。</string>
+    <string name="unstar_error_offline">"インターネット接続がなく、
+操作を実行できませんでした。"</string>
+    <string name="unstar_error_title">"スターの解除が
+できませんでした"</string>
+    <string name="gr_options_tip_msg">Flipの後に既読にするなどの設定を変更できます</string>
+    <string name="gr_options_tip_negative">いいえ</string>
+    <string name="gr_options_tip_positive">設定画面へ</string>
+    <string name="gr_options_tip_title">Googleリーダーオプション</string>
+    <string name="in_store_demo_vc_title_iphone">この機能はご利用になれません</string>
+    <string name="in_store_watermark">このバージョンのFlipboardは、デモンストレーションのために特別に作られたものです。</string>
+    <string name="rate_this_app_msg">Flipboardを気に入られた場合は、App Storeでこのアプリを評価してください。ご協力に感謝いたします！</string>
+</resources>

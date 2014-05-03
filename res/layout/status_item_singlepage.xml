@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <flipboard.gui.FLStaticTextView android:textSize="@dimen/section_item_text_large" android:textColor="@color/status_color" android:layout_gravity="center_vertical" android:id="@id/status_body" android:padding="@dimen/item_space_extra" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:paddingRight="@dimen/item_space" android:paddingBottom="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <flipboard.gui.FLToggleImageButton android:layout_gravity="right" android:id="@id/like_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView android:id="@id/separator_image" android:background="@drawable/status_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" />
+    <FrameLayout android:id="@id/status_wrapper" android:paddingLeft="@dimen/item_space" android:paddingRight="@dimen/item_space" android:paddingBottom="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/status_embed_single" />
+    </FrameLayout>
+</LinearLayout>

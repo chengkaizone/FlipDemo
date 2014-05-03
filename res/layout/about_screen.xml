@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/flipboard_office" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_margin_xlarge" android:src="@drawable/f_logo_white_no_text" android:onClick="createBugReportEmail" />
+        <flipboard.gui.FLTextView android:textSize="@dimen/about_app_version" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/about_flipboard_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_margin_medium" flip:fontweight="medium" style="@style/textShadowBlack" />
+        <flipboard.gui.FLTextView android:textSize="@dimen/about_copyright" android:textColor="@color/text_lightgray_inverted" android:ellipsize="marquee" android:gravity="center" android:id="@id/about_flipboard_copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textShadowBlack" />
+        <flipboard.gui.FLTextView android:textSize="@dimen/about_small" android:textColor="@color/text_lightgray_inverted" android:ellipsize="marquee" android:gravity="center" android:id="@id/about_build_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_margin_medium" />
+        <flipboard.gui.FLTextView android:textSize="@dimen/about_small" android:textColor="@color/text_lightgray_inverted" android:ellipsize="marquee" android:gravity="center" android:id="@id/about_udid" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <flipboard.gui.FLButton android:textSize="@dimen/about_button_text" android:padding="@dimen/about_button_padding" android:layout_width="@dimen/about_button_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_margin_large" android:text="@string/about_screen_terms_of_use" android:onClick="openTermsOfUse" style="@style/FLPaperButtonDark" />
+        <flipboard.gui.FLButton android:textSize="@dimen/about_button_text" android:padding="@dimen/about_button_padding" android:layout_width="@dimen/about_button_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_margin_small" android:text="@string/about_screen_privacy_policy" android:onClick="openPrivacy" style="@style/FLPaperButtonDark" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.actionbar.FLActionBar android:id="@id/action_bar" android:background="@drawable/content_guide_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/header_title" android:textColor="@color/text_white" android:gravity="center" android:layout_gravity="center" android:id="@id/service_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fl_account_log_in_title" flip:fontweight="medium" style="@style/textShadowBlack" />
+    </flipboard.gui.actionbar.FLActionBar>
+    <LinearLayout android:orientation="horizontal" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/service_settings_image" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="12.0dip" layout="@layout/avatar_tile" />
+        <flipboard.gui.FLLabelTextView android:textSize="18.0dip" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/service_settings_username" android:layout_width="wrap_content" android:layout_height="wrap_content" flip:fontweight="medium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/service_settings_items" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/linear" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="top" android:id="@id/itemLayout" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/listview_icon_ctr" android:layout_width="@dimen/content_drawer_flaccount_icon_size" android:layout_height="@dimen/content_drawer_flaccount_icon_size" android:layout_marginRight="12.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <flipboard.gui.DownloadImageView android:id="@id/listview_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" flip:placeholder="@drawable/avatar_default" />
+            <View android:background="@drawable/tile_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/content_drawer_flAccount_title_textSize" android:textColor="@color/content_drawer_title_grey" android:id="@id/toptext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginRight="7.0dip" android:layout_toRightOf="@id/listview_icon_ctr" android:layout_alignParentTop="true" flip:fontweight="medium" />
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/content_drawer_flAccount_subTitle_textSize" android:textColor="@color/content_drawer_subtitle_grey" android:id="@id/bottomtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/listview_icon_ctr" android:layout_below="@id/toptext" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/edit_account_container" android:paddingLeft="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <flipboard.gui.FLImageButton android:id="@id/edit_account_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" style="@style/EditAccount" />
+        <flipboard.gui.FLTextView android:textSize="@dimen/row_message_size" android:textColor="@color/grey_text" android:id="@id/edit_account_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="6.0dip" android:text="@string/fl_account_edit_button_title" android:layout_toRightOf="@id/edit_account_button" />
+    </RelativeLayout>
+    <View android:background="@color/content_drawer_lines" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

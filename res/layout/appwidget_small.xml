@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/content" android:background="@drawable/appwidget_background" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/image" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/gradient" android:background="@drawable/bottom_text_gradient_medium" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        <FrameLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/appwidget_f_logo_small_white" />
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:ellipsize="end" android:layout_gravity="bottom|left|center" android:id="@id/title" android:paddingRight="30.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/textShadowBlack" />
+            <TextView android:id="@id/author" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <ImageView android:id="@id/avatar" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <TextView android:id="@id/referrer" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        </FrameLayout>
+        <ImageButton android:layout_gravity="bottom|right|center" android:id="@id/refresh" android:background="@null" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toc_refresh" />
+        <ProgressBar android:layout_gravity="bottom|right|center" android:id="@id/progress" android:paddingLeft="18.0dip" android:paddingTop="17.0dip" android:paddingRight="9.0dip" android:paddingBottom="10.0dip" android:visibility="invisible" android:layout_width="46.0dip" android:layout_height="46.0dip" style="@android:style/Widget.ProgressBar.Small" />
+    </FrameLayout>>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/checkmark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_checkmark" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <flipboard.gui.FLTextView android:textSize="@dimen/row_title_size" android:textColor="@color/content_drawer_title_grey" android:id="@id/edition_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/checkmark" android:layout_centerVertical="true" flip:fontweight="medium" />
+    </RelativeLayout>
+    <View android:background="@color/content_drawer_lines" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

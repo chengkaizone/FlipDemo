@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="asset_prefix">en-rGB/</string>
+    <string name="asset_prefix_chinabuild">en-rGB/</string>
+</resources>

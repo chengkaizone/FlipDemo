@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flipboard.gui.ContentDrawerView android:layout_gravity="top" android:id="@id/fl_menu_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/header" android:background="@drawable/content_guide_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+        <flipboard.gui.actionbar.FLActionBar android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <flipboard.gui.FLTextView android:textSize="@dimen/header_title" android:textColor="@color/text_white" android:gravity="center" android:layout_gravity="center" android:id="@id/firstLine" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fl_account_log_in_title" flip:fontweight="medium" style="@style/textShadowBlack" />
+        </flipboard.gui.actionbar.FLActionBar>
+        <flipboard.gui.FLButton android:layout_gravity="right|center" android:id="@id/topright_button" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" style="@style/FLPaperButtonDark" />
+    </FrameLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
+        <LinearLayout android:orientation="horizontal" android:id="@id/empty_container" android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+            <flipboard.gui.FLBusyView android:layout_gravity="center_vertical" android:id="@id/empty_spinner" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="@dimen/item_space" />
+            <flipboard.gui.FLTextView android:textSize="20.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <flipboard.gui.EditableListView android:id="@id/menu_list_common" android:layout_width="0.0dip" android:layout_height="fill_parent" android:divider="@color/content_drawer_lines" android:dividerHeight="0.0dip" android:layout_weight="1.0" style="@style/ContentDrawerListView" />
+    </LinearLayout>
+</flipboard.gui.ContentDrawerView>

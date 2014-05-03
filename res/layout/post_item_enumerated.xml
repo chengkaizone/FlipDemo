@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/enumerated_container" android:layout_width="fill_parent" android:layout_height="fill_parent" class="flipboard.gui.item.PostItemView$EnumeratedContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_enumeration_text_size" android:textColor="@color/text_lightgray" android:id="@id/post_enumeration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/item_space" android:layout_marginRight="@dimen/item_space" />
+    <view android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="wrap_content" class="flipboard.gui.item.PostItemView$EnumeratedRootContainer">
+        <view android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/item_space" android:layout_marginRight="@dimen/item_space" class="flipboard.gui.item.PostItemView$TitleContainer">
+            <include layout="@layout/post_embed_title" />
+        </view>
+        <flipboard.gui.FLStaticTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/status_color" android:ellipsize="end" android:id="@id/post_excerpt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/item_space" android:layout_marginTop="@dimen/section_item_title_margin_vertical" android:layout_marginRight="@dimen/item_space" android:layout_marginBottom="@dimen/item_space_extra" />
+        <FrameLayout android:id="@id/status_wrapper" android:paddingLeft="@dimen/item_space" android:paddingRight="@dimen/item_space" android:paddingBottom="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/status_embed_single" />
+        </FrameLayout>
+    </view>
+</view>

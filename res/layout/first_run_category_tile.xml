@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onTileClicked"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/first_run_tile_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="top|center" android:id="@id/first_run_tile_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/category_chooser_tile_padding" />
+    <flipboard.gui.FLTextView android:textSize="@dimen/category_chooser_text_size" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/first_run_tile_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/category_chooser_tile_padding" flip:fontweight="medium" />
+</FrameLayout>

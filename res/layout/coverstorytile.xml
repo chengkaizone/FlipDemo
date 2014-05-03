@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/coverStoryContainer" android:layout_width="fill_parent" android:layout_height="350.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/coverLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/f_logo_white" />
+    <View android:background="@drawable/tile_border_default" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="right" android:id="@id/handle" android:paddingLeft="30.0dip" android:paddingRight="@dimen/ribbon_margin_right" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ribbon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:onClick="openContentDrawer" />
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/cover_stories_title_size" android:textColor="@color/white" android:id="@id/coverStoryText" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cover_stories_section_name" android:layout_above="@id/coverStoryProvenance" flip:fontweight="medium" style="@style/textShadowBlack" />
+    <flipboard.gui.CoverStoryTextView android:textSize="@dimen/cover_stories_provenance_size" android:textColor="@color/white" android:id="@id/coverStoryProvenance" android:paddingLeft="10.0dip" android:paddingTop="0.0dip" android:paddingRight="10.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_alignParentBottom="true" style="@style/textShadowBlack" />
+</RelativeLayout>

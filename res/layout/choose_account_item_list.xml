@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/empty_container" android:padding="@dimen/item_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <flipboard.gui.FLBusyView android:id="@id/empty_spinner" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/item_space" />
+        <flipboard.gui.FLTextView android:textSize="20.0sp" android:textColor="@color/black" android:id="@id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fetching_items" />
+    </LinearLayout>
+    <ListView android:id="@id/list_view" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@color/content_drawer_lines" android:dividerHeight="0.0dip" android:layout_weight="1.0" style="@style/ContentDrawerListView" />
+</LinearLayout>

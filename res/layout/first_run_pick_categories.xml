@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_light" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <flipboard.gui.FLTextView android:textSize="@dimen/first_launch_pick_text_size" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/first_launch_pick" android:layout_weight="1.0" flip:fontweight="medium" />
+        <flipboard.gui.FLButton android:textSize="@dimen/category_chooser_text_size" android:id="@id/first_run_done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done_button" android:onClick="doneSelecting" style="@style/FLPaperButtonDone" />
+    </LinearLayout>
+    <View android:background="@color/lightgray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+    <flipboard.gui.firstrun.SelectCategoriesGrid android:id="@id/first_run_categories_grid" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <flipboard.gui.FLTextView android:textColor="@color/text_paginator" android:gravity="center" android:id="@id/first_run_choose_cat_page_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+</LinearLayout>

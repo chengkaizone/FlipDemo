@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/content_guide_row_header_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/row_header_text" android:textColor="@color/content_drawer_title_separator" android:id="@id/title" android:paddingLeft="@dimen/row_horizontal_padding" android:paddingTop="@dimen/row_header_vertical_padding" android:paddingBottom="@dimen/row_header_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" flip:fontweight="medium" style="@style/textShadowWhite" />
+    <LinearLayout android:layout_gravity="bottom" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

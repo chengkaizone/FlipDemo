@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flipboard.gui.DownloadImageView android:background="@drawable/avatar_shadow" android:layout_width="@dimen/author_icon_size" android:layout_height="@dimen/author_icon_size" android:src="@drawable/avatar_default" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

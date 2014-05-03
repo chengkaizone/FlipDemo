@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/audio_container" android:background="@color/true_black" android:layout_width="fill_parent" android:layout_height="fill_parent" class="flipboard.gui.item.AudioItemView$Container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.DownloadImageView android:id="@id/audio_image" android:background="@drawable/audio_album_artwork_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_space_extra" android:layout_marginBottom="@dimen/item_space" flip:placeholder="@drawable/audio_album_artwork_default" />
+    <flipboard.gui.DownloadImageView android:id="@id/reflection" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/play_container" android:paddingLeft="@dimen/item_space" android:paddingTop="@dimen/item_space" android:paddingRight="@dimen/item_space" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/item_space">
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/status_color_inverted" android:layout_gravity="center" android:id="@id/play_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <flipboard.gui.FLImageButton android:layout_gravity="center" android:id="@id/play_button" android:background="@drawable/audio_play_button_inverted" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/title_line" android:paddingLeft="@dimen/item_space" android:paddingTop="@dimen/item_space" android:paddingRight="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <flipboard.gui.FLStaticTextView android:textSize="@dimen/section_item_text_large" android:textStyle="bold" android:textColor="@color/title_color_inverted" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/item_space" android:maxLines="3" android:layout_weight="1.0" flip:fontweight="medium" style="@style/textShadowBlack" />
+        <flipboard.gui.FLToggleImageButton android:layout_gravity="bottom" android:id="@id/like_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/text_lightgray_inverted" android:id="@id/audio_artist" android:paddingLeft="@dimen/item_space" android:paddingRight="@dimen/item_space" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/text_lightgray_inverted" android:id="@id/audio_postedBy" android:paddingLeft="@dimen/item_space" android:paddingRight="@dimen/item_space" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/status_wrapper" android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/status_embed_single" />
+    </FrameLayout>
+</view>

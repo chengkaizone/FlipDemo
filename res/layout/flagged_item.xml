@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/lightgray_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/item_space">
+        <flipboard.gui.FLStaticTextView android:textSize="@dimen/section_item_text_large" android:textColor="@color/text_lightgray" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hidden_item_text_marked_inappropriate" />
+    </FrameLayout>
+</FrameLayout>

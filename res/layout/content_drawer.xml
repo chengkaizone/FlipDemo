@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flipboard.gui.ContentDrawer android:id="@id/drawer" android:layout_width="fill_parent" android:layout_height="wrap_content" my:direction="topToBottom" my:handle="@id/handle" my:content="@id/viewflippercontainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:my="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/viewflippercontainer" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <flipboard.gui.ContentDrawerViewFlipper android:id="@id/viewflipper" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@drawable/content_drawer_gradient_white" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/ribbon_in_pen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ribbon_margin_right" android:src="@drawable/ribbon_top" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="right" android:id="@id/handle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ribbon_margin_right" android:src="@drawable/ribbon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <View android:id="@id/bottom_shadow" android:background="@drawable/content_drawer_gradient_black" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</flipboard.gui.ContentDrawer>

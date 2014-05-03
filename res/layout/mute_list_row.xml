@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip">
+        <flipboard.gui.DownloadImageView android:id="@id/service_icon" android:layout_width="@dimen/row_icon_size" android:layout_height="@dimen/row_icon_size" android:layout_marginRight="@dimen/item_space" />
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/row_title_size" android:textColor="@color/content_drawer_title_grey" android:id="@id/author_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" flip:fontweight="medium" />
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/checkmark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox" />
+    </LinearLayout>
+    <View android:background="@color/content_drawer_lines" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

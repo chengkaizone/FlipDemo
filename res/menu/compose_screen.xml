@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/profile_button" android:id="@id/compose_change_service" android:title="@string/account_chooser_vc_title" />
+    <item android:icon="@drawable/menu_camera" android:id="@id/compose_take_photo" android:title="@string/take_photo" />
+    <item android:icon="@drawable/menu_library" android:id="@id/compose_from_library" android:title="@string/choose_existing_photo" />
+    <item android:icon="@drawable/menu_shorten" android:id="@id/compose_shorten_links" android:title="@string/compose_settings_shorten_links" />
+    <item android:icon="@drawable/menu_clear" android:id="@id/compose_clear" android:title="@string/compose_settings_clear_msg" />
+</menu>

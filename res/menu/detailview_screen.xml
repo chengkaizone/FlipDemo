@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_favorite" android:id="@id/detail_favorite" android:title="@string/social_action_favorite" />
+    <item android:icon="@drawable/menu_retweet" android:id="@id/detail_retweet" android:title="@string/social_action_retweet" />
+    <item android:icon="@drawable/menu_comments" android:id="@id/detail_comment" android:title="@string/social_action_comment" />
+    <item android:icon="@drawable/more_button" android:id="@id/detail_share" android:title="@string/more_button" />
+</menu>

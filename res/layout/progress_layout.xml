@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/progress_layout_root" android:padding="@dimen/toast_space" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/toast_marginRight" style="@android:style/Widget.ProgressBar.Small" />
+    <flipboard.gui.FLTextView android:textSize="@dimen/toast_textSize" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:layout_gravity="center" android:id="@id/dimiss_button" android:paddingLeft="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dismiss" style="@style/ImageButtonNoBackground" />
+</LinearLayout>

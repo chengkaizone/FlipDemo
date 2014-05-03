@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip">
+        <ImageView android:id="@id/rightIcon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_checkmark" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:paddingLeft="@dimen/item_space" android:paddingRight="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/rightIcon" android:layout_centerVertical="true">
+            <flipboard.gui.FLTextView android:textSize="@dimen/row_title_size" android:textColor="@color/content_drawer_title_grey" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" flip:fontweight="medium" />
+            <flipboard.gui.FLTextView android:textSize="@dimen/row_message_size" android:textColor="@color/content_drawer_subtitle_grey" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/content_drawer_lines" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

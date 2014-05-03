@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/toc_settings" android:id="@id/toc_synchronize" android:title="@string/toc_synchronize_accessibility_label" />
+    <item android:icon="@drawable/toc_settings" android:id="@id/toc_clear_cache" android:title="@string/toc_clear_cache_accessibility_label" />
+</menu>

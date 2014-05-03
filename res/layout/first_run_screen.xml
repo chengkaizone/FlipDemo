@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/first_run_cinemagraph" android:padding="@dimen/first_run_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/f_logo" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <flipboard.gui.FLTextView android:textSize="@dimen/first_launch_cover_subtitle_text_size" android:textColor="@android:color/white" android:id="@id/first_launch_cover_subtitle" android:paddingBottom="@dimen/first_run_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/first_launch_cover_subtitle" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/textShadowBlack" />
+    <flipboard.gui.FLStaticTextView android:textSize="@dimen/first_launch_cover_welcome_text_size" android:textColor="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/first_launch_cover_welcome" android:layout_above="@id/first_launch_cover_subtitle" android:layout_alignParentLeft="true" flip:fontweight="medium" style="@style/textShadowBlack" />
+</RelativeLayout>

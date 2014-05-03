@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:paddingTop="8.0sp" android:paddingBottom="8.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_size">
+        <flipboard.gui.DownloadImageView android:id="@id/settings_click_row_image" android:visibility="gone" android:layout_width="@dimen/row_icon_size" android:layout_height="@dimen/row_icon_size" android:layout_marginLeft="12.0sp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <flipboard.gui.FLLabelTextView android:textSize="@dimen/row_title_size" android:textColor="@color/content_drawer_title_grey" android:id="@id/settings_click_row_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_horizontal_padding" flip:fontweight="medium" />
+            <flipboard.gui.FLLabelTextView android:textSize="@dimen/row_message_size" android:textColor="@color/content_drawer_subtitle_grey" android:id="@id/settings_click_row_footer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_horizontal_padding" android:layout_weight="1.0" />
+        </LinearLayout>
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/settings_click_row_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox" />
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/row_message_size" android:textColor="@color/content_drawer_subtitle_grey" android:layout_gravity="center_vertical" android:id="@id/settings_click_row_text_value" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/row_horizontal_padding" />
+    </LinearLayout>
+    <View android:background="@color/content_drawer_lines" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

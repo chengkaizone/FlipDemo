@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="direction">
+        <enum name="rightToLeft" value="0" />
+        <enum name="bottomToTop" value="1" />
+        <enum name="leftToRight" value="2" />
+        <enum name="topToBottom" value="3" />
+    </attr>
+    <attr name="handle" format="reference" />
+    <attr name="content" format="reference" />
+    <attr name="bottomOffset" format="dimension" />
+    <attr name="topOffset" format="dimension" />
+    <attr name="allowSingleTap" format="boolean" />
+    <attr name="animateOnClick" format="boolean" />
+    <attr name="hPad" format="dimension" />
+    <attr name="vPad" format="dimension" />
+    <attr name="textSize" format="dimension" />
+    <attr name="tileMessageSize" format="dimension" />
+    <attr name="coverTileMessageSize" format="dimension" />
+    <attr name="textColor" format="color" />
+    <attr name="shadowColor" format="color" />
+    <attr name="shadowDx" format="float" />
+    <attr name="shadowDy" format="float" />
+    <attr name="title_fontweight" format="string" />
+    <attr name="message_fontweight" format="string" />
+    <attr name="fontweight" format="string" />
+    <attr name="placeholder" format="integer" />
+    <attr name="hideWhenEllipsizing" format="boolean" />
+    <attr name="alignmentMode">
+        <enum name="alignBounds" value="0" />
+        <enum name="alignMargins" value="1" />
+    </attr>
+    <attr name="rowCount" format="integer" />
+    <attr name="columnCount" format="integer" />
+    <attr name="useDefaultMargins" format="boolean" />
+    <attr name="rowOrderPreserved" format="boolean" />
+    <attr name="columnOrderPreserved" format="boolean" />
+    <attr name="layout_row" format="integer" />
+    <attr name="layout_rowSpan" format="integer" min="1" />
+    <attr name="layout_columnSpan" format="integer" min="1" />
+    <attr name="layout_column" format="integer" />
+    <attr name="layout_span" format="integer" />
+</resources>

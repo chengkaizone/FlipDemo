@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/action_bar_height">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <flipboard.gui.FLLabelTextView android:textSize="@dimen/row_title_size" android:textColor="@color/content_drawer_title_grey" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" flip:fontweight="medium" />
+        </LinearLayout>
+        <RadioButton android:layout_gravity="right|center" android:id="@id/checkbox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/radiobutton" />
+    </LinearLayout>
+</LinearLayout>

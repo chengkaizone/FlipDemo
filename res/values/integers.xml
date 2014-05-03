@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="category_chooser_tiles_per_row">3</integer>
+    <integer name="category_chooser_tiles_per_column">3</integer>
+    <integer name="max_toc_message_lines">2</integer>
+    <integer name="max_items_in_page">3</integer>
+</resources>

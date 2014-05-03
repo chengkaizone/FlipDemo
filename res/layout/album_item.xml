@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <view android:id="@id/images_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/section_item_album_photo_margin" android:layout_weight="1.0" class="flipboard.gui.item.AlbumItemView$ImagesContainer">
+        <flipboard.gui.DownloadImageView android:id="@id/album_image1" android:background="@color/lightgray_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <flipboard.gui.DownloadImageView android:id="@id/album_image2" android:background="@color/lightgray_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <flipboard.gui.DownloadImageView android:id="@id/album_image3" android:background="@color/lightgray_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <flipboard.gui.DownloadImageView android:id="@id/album_image4" android:background="@color/lightgray_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </view>
+    <view android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" class="flipboard.gui.item.AlbumItemView$TitleContainer">
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textStyle="bold" android:textColor="@color/black" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" flip:fontweight="medium" />
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/black" android:id="@id/album_image_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" />
+        <flipboard.gui.FLToggleImageButton android:id="@id/like_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </view>
+    <FrameLayout android:id="@id/status_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_space">
+        <include layout="@layout/status_embed_single" />
+    </FrameLayout>
+</LinearLayout>

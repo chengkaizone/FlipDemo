@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/image_container" android:layout_width="fill_parent" android:layout_height="fill_parent" class="flipboard.gui.item.ImageItemView$Container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.DownloadImageView android:id="@id/image" android:background="@color/gray_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/title_line" android:background="@drawable/bottom_text_gradient_light" android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/title_color_inverted" android:layout_gravity="bottom" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/item_space" android:layout_weight="1.0" flip:fontweight="medium" style="@style/textShadowBlack" />
+        <flipboard.gui.FLToggleImageButton android:layout_gravity="bottom|right|center" android:id="@id/like_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/status_wrapper" android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/status_embed_single" />
+    </FrameLayout>
+</view>

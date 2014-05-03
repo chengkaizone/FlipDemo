@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <view android:layout_gravity="bottom" android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="wrap_content" class="flipboard.gui.item.PostItemView$ExcerptRootContainer">
+        <view android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" class="flipboard.gui.item.PostItemView$TitleContainer">
+            <include layout="@layout/post_embed_title" />
+        </view>
+        <view android:id="@id/excerpt_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/section_item_title_margin_vertical" android:layout_marginBottom="@dimen/item_space" class="flipboard.gui.item.PostItemView$ExcerptContainer">
+            <flipboard.gui.FLStaticTextView android:textSize="@dimen/section_item_text_normal" android:textColor="@color/status_color" android:ellipsize="end" android:id="@id/post_excerpt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/item_space" />
+            <flipboard.gui.DownloadImageView android:id="@id/post_image" android:background="@color/lightgray_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <flipboard.gui.FLStaticTextView android:textSize="@dimen/section_item_attribution_text_size" android:textColor="@color/text_lightgray" android:ellipsize="end" android:gravity="right" android:id="@id/post_image_attribution" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        </view>
+        <FrameLayout android:id="@id/status_wrapper" android:paddingTop="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/status_embed_single" />
+        </FrameLayout>
+    </view>
+</FrameLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FloydTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/FloydTheme</item>
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/stack_push</item>
+        <item name="android:activityCloseEnterAnimation">@anim/stack_pop</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+    </style>
+    <style name="ContentDrawerTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="ContentDrawerListView" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/listitem_selector</item>
+        <item name="android:cacheColorHint">@color/background_light</item>
+    </style>
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ImageButtonNoBackground">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TOCCompose" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/toc_compose</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="EditAccount" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:background">@drawable/flaccount_edit_account</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="ContentDrawerCompose" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/content_drawer_compose</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="textShadowBlack">
+        <item name="android:shadowColor">#66000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+    <style name="textShadowBlackDark">
+        <item name="android:shadowColor">#99000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+    <style name="textShadowBlackUp">
+        <item name="android:shadowColor">#66000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">-2.0</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+    <style name="textShadowWhite">
+        <item name="android:shadowColor">#66ffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+    <style name="PopoverAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="ProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/toast_rounded_edges</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="FLStaticTextView">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:maxLines">0</item>
+    </style>
+    <style name="FLLabelTextView">
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    <style name="FLPopover" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="FLPaperButtonDefault" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff999999</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/paperbutton_default</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#66ffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+    <style name="FLPaperButtonDark" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#fff7f7f7</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/paperbutton_dark</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">-2.0</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+    <style name="FLPaperButtonDone" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#fff7f7f7</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/paperbutton_done</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#33000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">-2.0</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+    <style name="FLPaperButtonDarkDone" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#fff7f7f7</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/paperbutton_dark_done</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#33000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">-2.0</item>
+        <item name="android:shadowRadius">0.01</item>
+    </style>
+    <style name="FLInput">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/input_field</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+    </style>
+</resources>

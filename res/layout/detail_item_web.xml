@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rootView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/action_bar" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/action_bar_height" android:layout_alignParentTop="true" class="flipboard.gui.item.InflateableDetailView$DetailActionBar"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+        <flipboard.gui.FLBusyView android:layout_gravity="left" android:id="@id/loading_indicator" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="@dimen/item_space" />
+    </view>
+    <include layout="@layout/service_prompt" />
+    <flipboard.gui.FLWebView android:id="@id/web_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

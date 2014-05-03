@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/social_card_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.actionbar.FLActionBar android:gravity="left" android:id="@id/action_bar" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/action_bar_height" />
+    <ScrollView android:id="@id/social_card_scrollview" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/social_card_margin_large" android:layout_weight="0.0">
+                <include android:id="@id/social_card_author_avatar" layout="@layout/avatar_tile" />
+                <flipboard.gui.FLLabelTextView android:textSize="@dimen/social_card_text_size" android:textColor="@color/black" android:id="@id/social_card_author_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/social_card_author_avatar" android:layout_alignTop="@id/social_card_author_avatar" flip:fontweight="bold" />
+                <flipboard.gui.FLLabelTextView android:textSize="@dimen/social_card_text_size" android:textColor="@color/text_lightgray" android:id="@id/social_card_time_ago_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/social_card_author_text" android:layout_alignTop="@id/social_card_author_text" />
+                <flipboard.gui.FLTextView android:textSize="@dimen/social_card_text_size" android:textColor="@color/black" android:id="@id/social_card_post_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/social_card_author_avatar" android:layout_below="@id/social_card_author_text" android:layout_alignLeft="@id/social_card_author_text" />
+            </RelativeLayout>
+            <View android:background="@color/lightgray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/social_card_margin_large" android:layout_marginRight="@dimen/social_card_margin_large" android:layout_weight="0.0" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/social_card_middle" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/social_card_margin_large" android:layout_weight="1.0">
+                <flipboard.gui.FLBusyView android:id="@id/social_card_middle_busy" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/social_card_response_footer" android:background="@color/lightgray_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <View android:background="@color/lightgray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:padding="@dimen/social_card_margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/social_card_profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/social_card_margin_medium" android:layout_weight="0.0">
+                <flipboard.gui.DownloadImageView android:id="@id/social_card_my_avatar" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/avatar_default" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <flipboard.gui.FLLabelTextView android:textSize="@dimen/social_card_text_size" android:gravity="right" android:id="@id/social_card_response_length" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" flip:fontweight="medium" />
+            </LinearLayout>
+            <flipboard.gui.FLEditText android:textSize="18.0dip" android:textColorHint="@color/lightgray" android:id="@id/social_card_reply_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/type_your_reply" android:maxLines="5" android:layout_weight="1.0" style="@style/FLInput" />
+            <flipboard.gui.FLButton android:id="@id/social_card_send_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/social_card_margin_medium" android:text="@string/send_button" android:layout_weight="0.0" android:onClick="send" style="@style/FLPaperButtonDone" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

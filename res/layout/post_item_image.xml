@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.DownloadImageView android:id="@id/post_image" android:background="@color/gray_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bottom_text_gradient" android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <view android:layout_gravity="bottom" android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" class="flipboard.gui.item.PostItemView$TitleContainer">
+            <include layout="@layout/post_embed_title_inverted" />
+        </view>
+        <FrameLayout android:id="@id/status_wrapper" android:paddingTop="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/status_embed_single" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

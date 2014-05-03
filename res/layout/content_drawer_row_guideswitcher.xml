@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="right" android:id="@id/root_container" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/arrowDown" android:paddingLeft="10.0dip" android:paddingTop="22.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/down_arrow" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/arrowDown" android:layout_alignParentLeft="true">
+        <flipboard.gui.FLTextView android:textSize="18.0dip" android:textColor="@color/content_drawer_title_grey" android:gravity="right" android:id="@id/toptext" android:layout_width="fill_parent" android:layout_height="wrap_content" flip:fontweight="normal" />
+        <flipboard.gui.FLTextView android:textSize="14.0dip" android:textColor="@color/content_drawer_subtitle_grey" android:gravity="right" android:id="@id/bottomtext" android:layout_width="fill_parent" android:layout_height="wrap_content" flip:fontweight="normal" />
+    </LinearLayout>
+</RelativeLayout>

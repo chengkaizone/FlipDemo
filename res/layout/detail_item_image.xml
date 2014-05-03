@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rootView" android:background="@color/true_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+    <flipboard.gui.DownloadImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <view android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/action_bar_height" android:layout_alignParentTop="true" class="flipboard.gui.item.InflateableDetailView$DetailActionBar"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flip="http://schemas.android.com/apk/res-auto">
+        <flipboard.gui.FLLabelTextView android:textSize="@dimen/header_title" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" flip:fontweight="medium" />
+    </view>
+    <flipboard.gui.FLStaticTextView android:textSize="@dimen/section_item_text_normal" android:textStyle="bold" android:textColor="@color/title_color_inverted" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/title" android:background="@drawable/bottom_text_gradient_light" android:padding="@dimen/item_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" flip:fontweight="medium" style="@style/textShadowBlack" />
+</FrameLayout>
